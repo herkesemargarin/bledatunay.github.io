@@ -5,14 +5,26 @@ function validEmail(email) { // see:
 }
 
 function validateHuman() {
-  
-  // Verify Captcha
-  var isNotBot = verifyCaptcha();
-  if(!isNotBot){
-	console.log("Fucking bot.");
-    return true;
-  }
-  console.log("Welcome Human!");
+	//var gresponse = grecaptcha.getResponse();
+	
+	/*$.ajax({
+      url:'recaptcha_form.php',
+      complete: function (response) {
+          $('#output').html(response.responseText);
+      },
+      error: function () {
+          $('#output').html('There was an error!');
+      }
+	});*/
+	
+    /*if(gresponse.length >= 5) {
+        console.log("Welcome Human!");
+    }
+	else
+	{
+		console.log("Fuck you, bot!");
+		return true;
+	}*/
 }
 
 
@@ -109,19 +121,3 @@ function loaded() {
   form.addEventListener("submit", handleFormSubmit, false);
 };
 document.addEventListener("DOMContentLoaded", loaded, false);
-
-// This function will verify the captcha response from user and resturn the result as true/flase
-function verifyCaptcha(){
-  var secret = '6LcRgKYaAAAAAHgXkgnfn8pgydZFj0bJH8lI6MEU';
-  var formObj = document.getElementById("gform");
-  var payload = {
-    'secret' : secret,
-    'response': formObj['g-recaptcha-response']
-  }
-  var url = 'https://www.google.com/recaptcha/api/siteverify';
-  var resp = UrlFetchApp.fetch(url, {
-    payload : payload,
-    method : 'POST'
-  }).getContentText();
-  return JSON.parse(resp).success;
-}
