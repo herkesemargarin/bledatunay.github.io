@@ -112,6 +112,7 @@ document.addEventListener("DOMContentLoaded", loaded, false);
 
 // This function will verify the captcha response from user and resturn the result as true/flase
 function verifyCaptcha(){
+  var secret = '6LcRgKYaAAAAAHgXkgnfn8pgydZFj0bJH8lI6MEU';
   var formObj = document.getElementById("gform");
   var payload = {
     'secret' : secret,
