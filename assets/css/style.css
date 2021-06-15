@@ -804,7 +804,7 @@ body.light-version .subtitle {color: rgba(0, 0, 0, 0.75);}
 
 .about-list {
 	
-	width:460px;
+	width:450px;
 	
 	float:left;
 	
@@ -1877,6 +1877,12 @@ footer {
 
 	}
 	
+		.about-list {
+		
+		width:330px;
+		
+	}
+	
 	/*.work ul:hover {
 
     padding-left: 25px;
@@ -2776,7 +2782,7 @@ to {
 ------------------------------------------------------------- */
 
 
-@media (max-width: 1001px){
+@media (max-width: 1000px){
     nav{
         left: 0;
         padding: 0 15px;
