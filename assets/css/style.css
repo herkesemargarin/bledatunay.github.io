@@ -2169,20 +2169,11 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-unreal {
     background-color: #464646;
-    width: 70%;
+    width: 65%;
     -webkit-animation: show-bar-unreal .9s ease;
     -moz-animation: show-bar-unreal .9s ease;
     -ms-animation: show-bar-unreal .9s ease;
     animation: show-bar-unreal .9s ease;
-}
-
-.bar-visualstudio {
-    background-color: #682279;
-    width: 75%;
-    -webkit-animation: show-bar-visualstudio .9s ease;
-    -moz-animation: show-bar-visualstudio .9s ease;
-    -ms-animation: show-bar-visualstudio .9s ease;
-    animation: show-bar-visualstudio .9s ease;
 }
 
 .bar-illustrator {
@@ -2205,7 +2196,7 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-xd {
     background-color: #ce4391;
-    width: 80%;
+    width: 85%;
     -webkit-animation: show-bar-xd .9s ease;
     -moz-animation: show-bar-xd .9s ease;
     -ms-animation: show-bar-xd .9s ease;
@@ -2214,7 +2205,7 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-aftereffects {
     background-color: #9256b2;
-    width: 70%;
+    width: 75%;
     -webkit-animation: show-bar-aftereffects .9s ease;
     -moz-animation: show-bar-aftereffects .9s ease;
     -ms-animation: show-bar-aftereffects .9s ease;
@@ -2259,11 +2250,20 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-office {
     background-color: #da3b00;
-    width: 75%;
+    width: 80%;
     -webkit-animation: show-bar-office .9s ease;
     -moz-animation: show-bar-office .9s ease;
     -ms-animation: show-bar-office .9s ease;
     animation: show-bar-office .9s ease;
+}
+
+.bar-visualstudio {
+    background-color: #682279;
+    width: 75%;
+    -webkit-animation: show-bar-visualstudio .9s ease;
+    -moz-animation: show-bar-visualstudio .9s ease;
+    -ms-animation: show-bar-visualstudio .9s ease;
+    animation: show-bar-visualstudio .9s ease;
 }
 
 .bar-git {
@@ -2303,17 +2303,17 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 }
 
 @keyframes show-bar-unity {from {width:0;} to {width:95%;}}
-@keyframes show-bar-unreal {from {width:0;} to {width:70%;}}
-@keyframes show-bar-visualstudio {from {width:0;} to {width:75%;}}
+@keyframes show-bar-unreal {from {width:0;} to {width:65%;}}
 @keyframes show-bar-illustrator {from {width:0;} to {width:90%;}}
 @keyframes show-bar-photoshop {from {width:0;} to {width:85%;}}
-@keyframes show-bar-xd {from {width:0;} to {width:80%;}}
-@keyframes show-bar-aftereffects {from {width:0;} to {width:70%;}}
+@keyframes show-bar-xd {from {width:0;} to {width:85%;}}
+@keyframes show-bar-aftereffects {from {width:0;} to {width:75%;}}
 @keyframes show-bar-audition {from {width:0;} to {width:70%;}}
 @keyframes show-bar-indesign {from {width:0;} to {width:60%;}}
 @keyframes show-bar-dreamweaver {from {width:0;} to {width:65%;}}
 @keyframes show-bar-premiere {from {width:0;} to {width:60%;}}
-@keyframes show-bar-office {from {width:0;} to {width:75%;}}
+@keyframes show-bar-office {from {width:0;} to {width:80%;}}
+@keyframes show-bar-visualstudio {from {width:0;} to {width:75%;}}
 @keyframes show-bar-git {from {width:0;} to {width:70%;}}
 @keyframes show-bar-3dsmax {from {width:0;} to {width:50%;}}
 @keyframes show-bar-maya {from {width:0;} to {width:35%;}}
