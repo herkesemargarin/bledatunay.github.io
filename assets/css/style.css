@@ -2250,7 +2250,7 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-office {
     background-color: #da3b00;
-    width: 80%;
+    width: 75%;
     -webkit-animation: show-bar-office .9s ease;
     -moz-animation: show-bar-office .9s ease;
     -ms-animation: show-bar-office .9s ease;
@@ -2277,7 +2277,7 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 
 .bar-3dsmax {
     background-color: #008684;
-    width: 50%;
+    width: 55%;
     -webkit-animation: show-bar-3dsmax .9s ease;
     -moz-animation: show-bar-3dsmax .9s ease;
     -ms-animation: show-bar-3dsmax .9s ease;
@@ -2312,10 +2312,10 @@ body.light-version .progress{background-color: rgba(0, 0, 0, 0.1);}
 @keyframes show-bar-indesign {from {width:0;} to {width:60%;}}
 @keyframes show-bar-dreamweaver {from {width:0;} to {width:65%;}}
 @keyframes show-bar-premiere {from {width:0;} to {width:60%;}}
-@keyframes show-bar-office {from {width:0;} to {width:80%;}}
+@keyframes show-bar-office {from {width:0;} to {width:75%;}}
 @keyframes show-bar-visualstudio {from {width:0;} to {width:75%;}}
 @keyframes show-bar-git {from {width:0;} to {width:70%;}}
-@keyframes show-bar-3dsmax {from {width:0;} to {width:50%;}}
+@keyframes show-bar-3dsmax {from {width:0;} to {width:55%;}}
 @keyframes show-bar-maya {from {width:0;} to {width:35%;}}
 @keyframes show-bar-corel {from {width:0;} to {width:30%;}}
 
