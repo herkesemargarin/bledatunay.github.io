@@ -5,26 +5,7 @@ function validEmail(email) { // see:
 }
 
 function validateHuman() {
-	//var gresponse = grecaptcha.getResponse();
-	
-	/*$.ajax({
-      url:'recaptcha_form.php',
-      complete: function (response) {
-          $('#output').html(response.responseText);
-      },
-      error: function () {
-          $('#output').html('There was an error!');
-      }
-	});*/
-	
-    /*if(gresponse.length >= 5) {
-        console.log("Welcome Human!");
-    }
-	else
-	{
-		console.log("Fuck you, bot!");
-		return true;
-	}*/
+	// validation comes here, returning "true" = bot
 }
 
 
