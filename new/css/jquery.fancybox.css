@@ -94,7 +94,7 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url(../images/ajax-loader.gif) center center no-repeat;
+	background: url(../images/icons/ajax-loader.gif) center center no-repeat;
 }
 
 .fancybox-close {

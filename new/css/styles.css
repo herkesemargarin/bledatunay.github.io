@@ -67,7 +67,7 @@ a.contacticon+a.contacticon {margin-left: 5px;}
 /* =Preloader
 --------------------------------------------------------------------------------------------------------*/
 #preloader { position:absolute; top:0; left:0; right:0; bottom:0; background-color:#000; z-index:99; }
-#status { width:200px; height:200px; position:absolute; left:50%; top:50%; background-image:url(../images/icons/ajax-loader.gif); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px; }
+#status { width:200px; height:200px; position:absolute; left:50%; top:50vh; background-image:url(../images/icons/ajax-loader.gif); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px;}
 /* End Preloader
 --------------------------------------------------------------------------------------------------------*/
 
@@ -169,6 +169,25 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 
 .icons { position:absolute; right:40px; top:40px; height:58px; width:58px; margin-left:0px; z-index:1 }
 .icons2 { position:absolute; right:20px; top:16px; height:58px; width:58px; margin-left:0px; z-index:1 }
+.email {background:url(../images/icons/bg-email.html) no-repeat; background-size:24px 24px; }
+.xing {background:url(../images/icons/bg-xing.png) no-repeat; background-size:24px 24px; }
+.google {background:url(../images/icons/bg-googleplus.png) no-repeat; background-size:24px 24px; }
+.tweat {background:url(../images/icons/bg-tweat.png) no-repeat; background-size:24px 24px; } 
+.twitter {background:url(../images/icons/bg-twitter.png) center no-repeat #fff; background-size:32px 32px; } 
+.facebook {background:url(../images/icons/bg-facebook.png) no-repeat; background-size:24px 24px; }
+.pinterest {background:url(../images/icons/bg-pinterest.png) no-repeat; background-size:24px 24px; }
+.instagram {background:url(../images/icons/bg-instagram.png) no-repeat; background-size:24px 24px; }
+.vimeo {background:url(../images/icons/bg-vimeo.png) no-repeat; background-size:24px 24px; }
+.skype {background:url(../images/icons/bg-skype.png) no-repeat; background-size:24px 24px; }
+.dribble {background:url(../images/icons/bg-dribble.png) no-repeat; background-size:24px 24px; }
+.link {background:url(../images/icons/bg-link.png) center no-repeat #fff; background-size:24px 24px; }
+.video {background:url(../images/icons/bg-video.png) center no-repeat #fff; background-size:24px 24px; }
+.bubble {background:url(../images/icons/bg-bubble.png) center no-repeat #fff; background-size:24px 24px; }
+.quote {background:url(../images/icons/bg-heart.png) center no-repeat #fff; background-size:24px 24px; }
+.slideshow {background:url(../images/icons/bg-slideshow.png) center no-repeat #fff; background-size:28px 15px; }
+.aside {background:url(../images/icons/bg-aside.png) center no-repeat #fff; background-size:23px 23px; }
+.close {background:url(../images/icons/bg-close.png) center no-repeat #fff; background-size:18px 18px; }
+.award {background:url(../images/icons/bg-award.png) center no-repeat #fff; background-size:22px 24px; }
 
 .images .title, .images .subtitle { z-index:10; position:absolute; top:36px; left:40px; width:auto; font-weight:600; cursor:pointer }
 .images .subtitle { top: 63px; left:74px; font-weight: 400; }
