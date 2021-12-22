@@ -313,7 +313,7 @@ height:40px;}
 	position: absolute; left: 0; right: 0; margin: auto; bottom:25px; width:228px; height:34px;
 }
 
-.social_button {
+.sobu {
 	
 	float:left;
 	
@@ -323,7 +323,7 @@ height:40px;}
 	
 	margin:0px 2px 0px 2px;
 }
-.social_image
+.soim
 {
 	position:absolute;
     -webkit-transition: opacity .4s ease-out;
