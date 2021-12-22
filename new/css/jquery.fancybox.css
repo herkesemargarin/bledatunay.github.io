@@ -113,7 +113,7 @@
 	right: -48px;
 	width: 58px;
 	height: 58px;
-	background: url(../images/bg-close.png) center no-repeat #fff;
+	background: url(../images/icons/bg-close.png) center no-repeat #fff;
 	background-size:18px 18px;
 	cursor: pointer;
 	z-index: 8040;
