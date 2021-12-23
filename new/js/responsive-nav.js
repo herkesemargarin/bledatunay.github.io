@@ -1,13 +1,12 @@
 jQuery(document).ready(function(){
 	
-	
 	jQuery('#nav-button').click(function() {
-			jQuery('#options').show();
+			jQuery('#options').toggle();
 	});
 	
 	if ( jQuery(window).width() < 959) {
 	jQuery('#options li a').click(function() {
-			jQuery('#options').hide();
+			jQuery('#options').toggle();
 		});
 	}
 	
