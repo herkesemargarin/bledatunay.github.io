@@ -51,12 +51,13 @@ ul#filters { background:#11191f; margin:0 10px; width:620px;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 767px) {
 .container { padding:0px; width:320px; position:relative; }
-.col2-3 { width:300px; height:auto; margin:10px; float:left; }
+.col2-3 { width:300px; height:auto; margin:10px; float:left;}
 .element .col2-3 {width:300px; height:187px; margin:0; float:none; }
 .element .col1-3.white-right, .element .col1-3.white-right2 {width:300px; height:400px; margin:0; float:none;}
 .element .col1-3.connect {width:300px; height:auto; float:none; }
 .col1-1 {width:300px; height:auto; }
 .about_exp_info p {padding-left:30px;}
+.contactform {height:440px;}
 /*.white-right:before, .white-right2:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:124px; margin-left:40px; left:0; }
 .white-right2:before {top:313px; }*/
 
@@ -69,4 +70,11 @@ h1#logo { position:relative; float:left; margin-top:29px; margin-left:10px; marg
 #options li a { border-bottom:1px solid #000; width:240px; padding:10px 20px; }
 #options li a:hover, #options li a:focus {background:#21292f; }
 ul#filters { background:#11191f; margin:0 10px; width:300px;}
+
+.cs-element {padding:0; width:100px;}
+.cs-feedback {width:100px;}
+.cs-text {padding:0;}
+.cs-button {width:120px;}
+.button {width:110px;}
+
 }

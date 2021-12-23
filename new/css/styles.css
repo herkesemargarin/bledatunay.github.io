@@ -293,8 +293,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .experience_info_title {font-size:14px; font-weight:normal;}
 .experience_info_text {font-size:22px; font-weight:bold; padding-top:4px;}
 
-.lookingforwork {background:#a0ffa0; box-shadow: inset 0px 0px 0px 6px green; -webkit-box-shadow: inset 0px 0px 0px 6px green; -moz-box-shadow: inset 0px 0px 0px 6px green;}
-.lookingforwork:hover {box-shadow: inset 0px 0px 0px 6px white;}
+.lookingforwork {background:#a0ffa0; box-shadow: inset 0px 0px 0px 7px green; -webkit-box-shadow: inset 0px 0px 0px 7px green; -moz-box-shadow: inset 0px 0px 0px 7px green;}
+.lookingforwork:hover {box-shadow: inset 0px 0px 0px 7px white;}
 
 
 #page-container {position: relative; min-height: 100vh;}
@@ -380,3 +380,8 @@ height:40px;}
 
     transition: all 0.5s ease;}
 .button:hover {background:#ddd;}
+
+.cs-element {position:absolute; display:none;}
+.cs-button {padding-bottom:20px; width:160px;}
+.cs-text {padding:11px 0 0 5px;}
+#cs-load {height:40px; width:40px;}

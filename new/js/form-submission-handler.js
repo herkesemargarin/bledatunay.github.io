@@ -1,14 +1,14 @@
 
+
 function validEmail(email) { // see:
   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
   return re.test(email);
 }
 
 function validateHuman() {
-	// validation comes here, returning "true" = bot
+	// validation comes here, returning "true" 
 }
-
-
 
 // get all data in form and return object
 function getFormData() {
@@ -59,6 +59,7 @@ function getFormData() {
 }
 
 function handleFormSubmit(event) {  // handles form submit withtout any jquery
+    
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
 
@@ -70,12 +71,27 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   }
 
   if( !validEmail(data.email) ) {   // if email is not valid show error
-    document.getElementById("email-invalid").style.display = "block";
+    document.getElementById("cs-email").style.display = "block";
+	document.getElementById("cs-name").style.display = "none";
+	document.getElementById("cs-message").style.display = "none";
     return false;
   } else if( document.getElementById("name").value.length < 2 ) {   // if name is empty show error
-    document.getElementById("name-invalid").style.display = "block";
+    document.getElementById("cs-email").style.display = "none";
+	document.getElementById("cs-name").style.display = "block";
+	document.getElementById("cs-message").style.display = "none";
+    return false;
+  } else if( document.getElementById("message").value.length < 5 ) {   // if message is empty show error
+    document.getElementById("cs-email").style.display = "none";
+	document.getElementById("cs-name").style.display = "none";
+	document.getElementById("cs-message").style.display = "block";
     return false;
   } else {
+	
+	document.getElementById("cs-email").style.display = "none";
+	document.getElementById("cs-name").style.display = "none";
+	document.getElementById("cs-message").style.display = "none";
+	document.getElementById("cs-load").style.display = "block";
+	  
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
