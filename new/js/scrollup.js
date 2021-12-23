@@ -9,4 +9,8 @@ jQuery(function() {
 	jQuery('#toTop').click(function() {
 		jQuery('body,html').animate({scrollTop:0},400);
 	});	
+
+	jQuery('.toTopDet').click(function() {
+		jQuery('body,html').animate({scrollTop:120},800); // scrollTop = Height of the top navigation + some padding
+	});	
 });
