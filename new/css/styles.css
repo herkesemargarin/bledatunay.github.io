@@ -245,7 +245,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .isotope.infinite-scrolling { -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
 
 
-#options { width:auto; height:100px; z-index:300; text-align:right;}
+#options { width:auto; height:100px; z-index:300; text-align:center;}
 #options ul { margin: 0; list-style: none; display:inline-block; padding-top:36px; float:right; margin-right:-7px; }
 #options li { float: left;  }
 #options li a { color:#777; font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; font-size:20px; font-weight:normal; text-decoration:none; text-transform:uppercase; letter-spacing: 1px; display:inline-block; padding:5px 17px;  margin:0px; }
