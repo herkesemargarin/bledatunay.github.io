@@ -296,6 +296,9 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .lookingforwork {background:#a0ffa0; box-shadow: inset 0px 0px 0px 7px green; -webkit-box-shadow: inset 0px 0px 0px 7px green; -moz-box-shadow: inset 0px 0px 0px 7px green;}
 .lookingforwork:hover {box-shadow: inset 0px 0px 0px 7px white;}
 
+.game_table {width:100%;}
+.game_table td {width:50%;}
+.game_table p {padding:14px 20px 0 40px;}
 
 #page-container {position: relative; min-height: 100vh;}
 
