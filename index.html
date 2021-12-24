@@ -1,83 +1,53 @@
-<!--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-|| HTML & CSS created and designed by Bleda Tünay. Yep.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
-<!DOCTYPE html>
-<html lang="en-US">
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  dir="ltr" lang="en-US"> <!--<![endif]-->
 
 <head>
-
-	<meta charset="UTF-8" />
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>~ bleda tünay.</title>
-    <meta name="description" content="~ bleda tünay.">
+	<meta charset="utf-8">
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="author" content="Bleda Tünay">
-    <meta name="keywords" content="bleda tünay, bleda, tünay, designer, game, game design, game designer, ui, ux, ui design, ux design, ui/ux design, user interface design, user experience design, ui designer, ux designer, ui/ux designer, user interface designer, user experience designer, game developer, middle east technical university, orta dogu teknik universitesi, odtu, metu, bilkent university, bilkent universitesi">
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-	<meta name="viewport" content="width=device-width">
-	<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
-	
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115545928-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-115545928-1');
-	</script>
-
-	<!-- YoxView -->
-    <script type="text/javascript" src="yoxview/yox.js"></script>
-	<script type="text/javascript" src="yoxview/yoxview-init.js"></script>
-	<script type="text/javascript">
-		    $(document).ready(function(){
-		        $(".yoxview").yoxview({
-				allowInternalLinks: true,
-				});
-		    });
-		function yoxviewonClose(){
-		$(".yoxview_element object").each(
-			function (){
-			this.sendEvent('STOP');
-			}
-			);
-		}
-	</script>
-
-	<!--Google Fonts-->
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-    <link rel='stylesheet' id='font-Roboto-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C100italic%2C300%2C300italic%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;ver=1.0.0' type='text/css' media='screen' />
-
-	<!--Stylesheets-->
-	<link rel='stylesheet' id='bootstrap-css'  href='assets/css/bootstrap.css' type='text/css' media='screen' />
-	<link rel='stylesheet' id='style-css'  href='assets/css/style.css' type='text/css' media='screen' />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-	<!--jQuery-->
-	<script type='text/javascript' src='js/jquery/jquery.js?ver=1.12.4'></script>
-	<script type='text/javascript' src='js/jquery/jquery-migrate.js?ver=1.4.1'></script>
-	<script type="text/javascript">jQuery(document).ready(function(){});</script>		
-    
-	<style type="text/css">
-		.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
-        </style>
+	<meta name="Description" content="Online portfolio of Bleda Tünay &ndash; UI/UX and Game Designer from Ankara, Turkey." />
+	<title>~ bleda tünay | game & UI/UX designer</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+	<!--[if gt IE 8]><!--><link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /><!--<![endif]-->
+	<!--[if !IE]> <link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+	<!--[if gt IE6]> <link href="css/styles-ie.css" rel="stylesheet" type="text/css" media="screen" /> <![endif]-->
+	<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 		
-		<style type="text/css" title="dynamic-css" class="options-output">
-		.mypicture{background-color:#fff;}
-		body{font-family:Roboto;font-weight:normal;font-style:normal;}
-		nav{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h1{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h2{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h3{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h4{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h5{font-family:Roboto;font-weight:normal;font-style:normal;}
-		h6{font-family:Roboto;font-weight:normal;font-style:normal;}
-    </style>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic' rel='stylesheet' type='text/css'>
+
+		
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+		
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
+	<script src="js/modernizr.js" type="text/javascript"></script>
+	<script src="js/retina.min.js" type="text/javascript"></script>
+	<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+	<script src="js/jquery.ba-bbq.min.js" type="text/javascript"></script>
+	<script src="js/jquery.isotope.load_home.js" type="text/javascript"></script>
+	<script src="js/jquery.form.js" type="text/javascript"></script>
+	<script src="js/input.fields.js" type="text/javascript"></script>
+	<script src="js/responsive-nav.js" type="text/javascript"></script>
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+	<script src="js/image-hover.js" type="text/javascript"></script>
+	<script src="js/scrollup.js" type="text/javascript"></script>
+	<script src="js/preloader.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	
-	
+	<!-- Smartlook -->
 	<script type='text/javascript'>
 	window.smartlook||(function(d) {
     var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
@@ -86,12 +56,8 @@
     })(document);
     smartlook('init', 'e6a2a078c05fc7bc47c327dfd755bab084924e00');
 	</script>
-		
-</head>
 
-<body class="light-version">
-
-<!-- Start of StatCounter Code -->
+	<!-- Start of StatCounter Code -->
 	<script type="text/javascript">
 		var sc_project=11655140; 
 		var sc_invisible=1; 
@@ -99,629 +65,662 @@
 		</script>
 		<script type="text/javascript"
 		src="https://www.statcounter.com/counter/counter.js"
-		async></script>
-		<noscript><div class="statcounter"><a title="Web Analytics
+		async>
+	</script>
+	<noscript><div class="statcounter"><a title="Web Analytics
 		Made Easy - StatCounter" href="http://statcounter.com/"
 		target="_blank"><img class="statcounter"
 		src="//c.statcounter.com/11655140/0/a594689c/1/" alt="Web
 		Analytics Made Easy - StatCounter"></a></div
 	</noscript>
-<!-- End of StatCounter Code -->
 
-<div class="mypicture"></div>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-B1R7BPGFGW"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-<header>
-	<img class="mesmall" src="assets/images/catlogo.png">
-		
-        <h1 class="myname">Bleda Tünay</h1>
-        
-		<nav class="navbar navbar-default">
-		<div class="container-fluid">
-        
-			<!--<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse" id="navbar-collapse">-->
-            
-				<ul class="nav navbar-nav">
-					<li><a class="active" href="homepage">Home</a></li>
-                    <li><a href="about">About</a></li>
-					<li><a href="education">Education</a></li>
-					<li><a href="work">Work Experience</a></li>
-					<li><a href="skills">Skills</a></li>
-                    <li><a href="mygames">Games</a></li>
-                    <li><a href="gallerypage">Gallery</a></li>
-					<li><a href="contact">Contact</a></li>
+		gtag('config', 'G-B1R7BPGFGW');
+	</script>
+</head>
+
+<body>
+
+<div id="page-container"><div id="content-wrap">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+
+	<!-- Header -->
+	<header id="wrapper">
+		<div class="container clearfix">
+			<h1 id="logo"><a href="#filter=.home">Bleda Tünay</a></h1>
+			<!-- Navigation -->
+			<div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+			<div id="options" class="clearfix">
+				<ul id="filters" class="option-set clearfix" data-option-key="filter">
+					<li><a href="#filter=.home" class="selected"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+					<li><a href="#filter=.about"><i class="fa fa-info-circle"></i>&nbsp;About</a></li>
+					<!--<li><a href="#filter=.education"><i class="fas fa-book"></i>&nbsp;Education</a></li>
+					<li><a href="#filter=.work"><i class="fa fa-briefcase"></i>&nbsp;Work</a></li>-->
+					<li><a href="#filter=.skills"><i class="fa fa-star"></i>&nbsp;Skills</a></li>
+					<li><a href="#filter=.games"><i class="fa fa-gamepad"></i>&nbsp;Games</a></li>
 				</ul>
 			</div>
-		</nav>
-		
-</header>
-	<div class="wrap wrap-page">
-
-		<!-- Home -->
-		<div class="content homepage active">
-        	<h2><b>Stay awhile, and listen!</b></h2>
-        	<h3>Welcome to my highly sarcastic, most doubtful, system-hating, artistic-wannabe personal site. Started off as a professional looking CV / Portfolio site, I find myself complaining just about anything, so I guess that's how it'll go.<br><br>Anyways, let me get a bit serious for the sake of it. From a professional standpoint, I am someone who plays, designs, dreams, and lives games.</h3><h3>Thus my only and ultimate goal, is to create or take part in the creation of games, like the many I've played to this day, which made me who I am.</h3><br>
-            <a href="mailto:bledatunay@gmail.com?subject=Portfolio Request&body=Please write down who you are and why you request my portfolio for." class="btn btn-1 btn-1c margin-top">Request My Portfolio</a>
+			<!-- End Navigation -->
 		</div>
+	</header>
+	<!-- End Header -->
 
-		<!-- About -->
-		<div class="content about">
-        	<h2 class="title"><span class="fas titlefa fa-eye" aria-hidden="true"></span>About</h2><br>
-				<div class="about-list"><ul>
-					<li>
-					<h3>Born in:</h3>
-					<h4>1992, Ankara, Turkey</h4>
-					</li>
-					
-					<li>
-					<h3>Completed education:</h3>
-					<h4>Graphic Design (BS)<br>Game Technologies (MS)</h4>
-					</li>
-					
-					<li>
-					<h3>Marital status:</h3>
-					<h4>Engaged</h4>
-					</li>
-					
-					<li>
-					<h3>Drivers license:</h3>
-					<h4>B, A2</h4>
-					<p>(Biker alert, vrrroooooom)</p>
-					</li>
-				</ul></div>
+	<!-- Start Body -->
+	<div class="container">
+		<div id="container" class="clearfix">
+
+		<!-- Details -->
+
+			<!-- Detail Education -->
+			<div class="element clearfix col2-3 det det_education">
 				
-				<div class="about-list"><ul>
-					<li>
-					<h3>Experience in game industry:</h3>
-					<h4>+7 years</h4>
-					</li>
+				<a href="#filter=.about">
+					<div class="icons2 close"></div>
+				</a>
+				<h2>Education</h2>
+				<div style="overflow-y:auto; overflow-x:hidden;">
+					<div class="about_edu_logo"><a href="http://www.metu.edu.tr/" target="_blank"><img src="images//logos/metu.png"></a></div>
+					<div class="about_edu_container">
+						<p class="about_edu_date"><i class="fa fa-clock"></i> 2016 &ndash; 2020</p>
+						<h4 class="about_edu_study">Game Technologies (MS)</h4>
+						<h5 class="about_edu_school">Middle East Technical University<br>Ankara, Turkey</h5>
+						<h5 class="about_edu_cgpa"><i class="fa fa-graduation-cap"></i> CGPA: 3.79/4.00</h5>
+					</div>
 					
-					<li>
-					<h3>Released games I've worked on:</h3>
-					<h4>2 PC AA</h4>
-					<p>(12-18 months of development each)</p>
-					<h4>5 Mobile Casual</h4>
-					<p>(4-12 months of development each)</p>
-					<h4>3 Roblox AA</h4>
-					<p>(8-16 months of development each)</p>
-					<h4>Countless Hypercasuals</h4>
-					<p>(The fact that I had to get involved with hypercasual is an absolute disgrace for me - I don't want to talk about it)</p>
-				</ul></div>
+					<div class="about_edu_logo"><a href="http://www.bilkent.edu.tr/" target="_blank"><img src="images//logos/bilkent.png"></a></div>
+					<div class="about_edu_container">
+						<p class="about_edu_date"><i class="fa fa-clock"></i> 2010 &ndash; 2014</p>
+						<h4 class="about_edu_study">Graphic Design (BA)</h4>
+						<h5 class="about_edu_school">Bilkent University<br>Ankara, Turkey</h5>
+						<h5 class="about_edu_cgpa"><i class="fa fa-graduation-cap"></i> CGPA: 3.40/4.00</h5>
+					</div>
+					
+					<div class="about_edu_logo"><a href="http://www.buyukkolej.k12.tr/" target="_blank"><img src="images//logos/buyuk.png"></a></div>
+					<div class="about_edu_container">
+						<p class="about_edu_date"><i class="fa fa-clock"></i> 1998 &ndash; 2010</p>
+						<h4 class="about_edu_study">Mathematics & Science</h4>
+						<h5 class="about_edu_school">Büyük College<br>Ankara, Turkey</h5>
+						<h5 class="about_edu_cgpa"><i class="fa fa-book"></i> Elementary, Middle, High</h5>
+					</div>
+				</div>
+			
+				<hr>
+
+				<p>Since the very first day I was aware of myself, I knew that I want to work on making great games for the rest of my life. Although how education works in Turkey didn't let me do much progress in terms of personal knowledge and self improvement before university, I developed myself as much as I could nonetheless at the cost of grades.</p><p>Enrolling to the university as a mediocre student, I proved to everyone and to myself that I am indeed a bright mind when it comes to doing what I love. Since 2010, everything I did as school projects and in work environment, I make it so that they are at least somehow related to games, and I want it to stay that way.</p>
 				
-				<div class="about-list"><ul>
-					<h3>Been a passionate gamer for:</h3>
-					<h4>+27 years</h4>
-					<h3>Number of games played:</h3>
-					<h4>~1100</h4>
-					<h3>Number of games completed:</h3>
-					<h4>~250</h4>
-					<p>(I have actually aproximately calculated these two)</p>
-				</ul></div>
+				<hr>
+				<div class="about_edu_courses">
+					<h4 style="font-size:14px;">Related undergrad courses<br>I have completed:</h4>
+					<p>- Basic Design I, II<br>
+					- Graphic Design I, II, III, IV, V, VI<br>
+					- Typography I, II, III<br>
+					- Motion Graphics<br>
+					- Advanced Animation I, II<br>
+					- Drawing I, II<br>
+					- Illustration I, II<br>
+					- Design Issues<br>
+					- Advanced Photography I, II<br>
+					- Psychology of Advertisement<br>
+					- Visual Techniques I, II<br>
+					- Advanced Photography I, II<br>
+					- Technical Drawing & Lettering<br>
+					- Web Design<br>
+					- Logos, Symbols & Signs<br>
+					- Marketing Principles</p>
+				</div>
+				<div class="about_edu_courses">
+					<h4 style="font-size:14px;">Related grad courses<br>I have completed:</h4>
+					<p>- Game Development Pipeline<br>
+					- Psychology in Game Design<br>
+					- Gamification & Persuasive Games<br>
+					- Artificial Intelligence in Computer Games<br>
+					- Physics for Computer Games<br>
+					- Game Metrics<br>
+					- Procedural Sound Design</p>
+					<h4 style="font-size:14px;">Thesis study on:</h4>
+					<p>"The effects of visual realism on the participant's sense of immersion and presence in virtual reality environments"</p>
+				</div>
+			</div>
+			
+			<!-- Detail Experience -->
+			<div class="element clearfix col2-3 det det_experience">
 				
-				<div class="about-list"><ul>
-					<h3>Lottery of birth:</h3>
-					<h4>Bottom 10%</h4>
-					<h3>Number of times I have outperformed all expectations and not appreciated one bit:</h3>
-					<h4>~340</h4>
-					<p>(Updating this yearly)</p>
-				</ul></div>
-				
-                <div style="float:left;">
-				
-				<p style="font-size:28px; margin-top:12px; margin-bottom:40px; line-height:1.1;"><b>Warning:</b> Below is a personal rant, and as far as I can tell from looking at my analytics, no one ever reads it. Just scroll back up.</p>
-				
-				<p class="subtitle">I have always considered myself "a dreamer", and one of my biggest dreams since the day I've known myself, is to create a game and do every aspect of it by myself - you may call it a "magnum opus". Kind of like what Jonathan Blow did with "Braid", although if I were to be realistic, I'm not a genius as he is, thus I'm not even sure if that's possible. But whatever, the point is; this is my mindset (accordingly, my skillset), and that same mindset actually applies to every aspect of my life. There are so many things to do and experience in this world, but so little time to live and go through it all. Nonetheless, I want to taste as much of what my life may have to offer as possible. As a result of living with this mindset for over 20 years, I became someone who can perfectly be described as "jack of all traits, master of none", both in terms of my profession and my everyday life. Not to mention, I'm pretty happy for being this way. On the other hand, with billions of people around the globe, "system" is not really recognizing this as a positive thing.<br><br>Corporations, schools, recruiters; they are all searching for that person who is as good as possible in what they do, and fulfilling that role is the only requirement as far as they are concerned - other aspects of the individual is none of their business. For example, the fact that someone they are about to hire to a UI Designer position is also knowledgeable about things like quantum physics or playing insturments is irrelevant; if there is a better alternative with more experience or skill in UI design but no other wide (or even narrow) range of interests, it doesn't really matter for the employer, this hypothetical alternative always beats my hypothetical primary guy. Well, tell you what; I simply and absolutely reject this perspective. I really don't care if I won't be considered qualified or my applications will be rejected because of this; I am doing a lot of things, and I will keep doing them. I play computer games, and I play them a lot, I obsessively love any kind of good quality music, I love movies and TV shows, I love Nordic Culture, I'm very interested in physics, quantum physics, philosophy, sociology, maths, biology, I like playing basketball, tennis, snooker, chess, I play guitar, piano, and some experimental insturments like jaw harp, kalimba and tremolo, I like reading books involving everything, from philosophy of existence to pure adventure, I like taking random and totally amateur photographs and not share them with anyone ever, I like walking and wandering endlessly, I like Rick & Morty, cats, Radiohead, earl grey tea, Christopher Nolan Movies, and chocolate cakes with cherry on top. List goes on. I am constantly trying and pushing towards being the best that I could be - according to my own understanding, by trying to improve myself in this vast ocean of interests. However, this comes with a price: I am neither the best at something particular, nor trying to be. Simply put, I won't be that guy who sits at the corner of an office, doing whatever he does pretty well, but nothing else. Life is a constant state of learning, and I want to learn as much as possible about everything.<br><br>From a professional standpoint, this can correspond to a nowhere-near-best-but-pretty-decent game designer, who also roughly knows how to code, model 3D objects, rig and animate characters, how UI works, how physics works, how audio works, how server and client sides operates and so on. On paper, this game designer will probably not be able to create the best levels, craft the most effective in-game economics, or make the most convincing game-documentation presentation, but he is likely to do so much more in the background, little things here and there, or come up with a really weird but promising idea by combining - lets say philosophy of chess with syncopation in music as a result of his wide area of interests, that in the end, his contribution may end up surpassing the contribution of a better (sole) game designer, and expectations of everybody, inlcuding himself. Long story short, in my honest opinion as oppose to what 21st century thinks; this particular person is an amazing recruitment. On the other hand, my opinion matters very little, I suppose...<br><br><b>If you have actually managed to read everything up to this point, you have my deepest gratitude. I really hope that you have an idea about how I feel about my life, my job, what I do, and why I do it.</b></p><br></div>
-		</div>
-
-		<!-- Education -->
-		<div class="content education">
-				<h2 class="title"><span class="fas titlefa fa-book" aria-hidden="true"></span>Education</h2>
-				<p class="subtitle">Since the first day I was aware of myself, I knew that I want to work on making great games for the rest of my life. Although how education works in Turkey didn't let me do much progress in terms of personal knowledge before university, I developed myself as much as I could nonetheless, at the cost of grades. Coming to university as a 'bad' student, I proved to everyone and to myself that I am indeed a bright mind when it comes to doing what I love. Since 2010, everything I did as school projects and in work environment, I make it so that they are at least somehow related to games, and I want it to stay that way.</p>
-					<ul>
-                    	<div class="schoollogo"><a href="http://www.metu.edu.tr/" target="_blank"><img src="assets/images/logos/metu.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>September 2016 - 2020</span></li>
-							<li><span class="bigger">Game Technologies - Masters Degree<br>
-							<b>Middle East Technical University, Ankara, Turkey</b></span></li>
-							<li><span class="smaller"><span class="fas fa-graduation-cap" aria-hidden="true"></span>CGPA: 3.79/4.00</span></li>
-                            </div>
-					</ul>
-
-					<ul>
-                    	<div class="schoollogo"><a href="http://www.bilkent.edu.tr/" target="_blank"><img src="assets/images/logos/bilkent.png"></a></div>
-                        	<div class="listcontainer">
-							<li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>September 2010 - June 2014</span></li>
-							<li><span class="bigger">Graphic Design - Bachelors Degree<br>
-							<b>Bilkent University, Ankara, Turkey</b></span></li>
-							<li><span class="smaller"><span class="fas fa-graduation-cap" aria-hidden="true"></span>CGPA: 3.40/4.00</span></li>
-                            </div>
-					</ul>
-                    
-                    <ul>
-                    	<div class="schoollogo"><a href="http://www.buyukkolej.k12.tr/" target="_blank"><img src="assets/images/logos/buyuk.png"></a></div>
-                        	<div class="listcontainer">
-							<li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>September 1998 - June 2010</span></li>
-							<li><span class="bigger">Mathematics & Science<br>
-							<b>Büyük College, Ankara, Turkey</b></span></li>
-							<li><span class="smaller">Elementary, Middle, High School</span></li>
-                            </div>
-					</ul>
-		</div>
-
-		<!-- Work -->
-		<div class="content work">
-				<h2 class="title"><span class="fas titlefa fa-briefcase" aria-hidden="true"></span>Work Experience</h2>
-				<p class="subtitle">As a graphic design student, I had to work in some advertisement agencies, printhouses, and take part in some graphic design stuff, but I never really liked doing something purely related to graphic design, thus most of my work were not that good. After graduation and my experiences below, I really don't consider working in any other sector than game industry anymore, since I now have both the required experience and knowledge to take part in doing what I love.</p>
-					
-					<ul>
-                    	<div class="companylogo"><a href="http://www.mildmania.com" target="_blank"><img src="assets/images/logos/mildmania.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>September 2020 - Now</span></li>
-							<li><span class="bigger">Game & UX Designer<br>
-							<b>MildMania, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>Currently working as a game & UX designer, I am focused on the overall design of a mobile battle royale game, and slightly involved in some hypercasual / Roblox projects.</div></li>
-                            </div>
-					</ul>
-					
-                    <ul>
-                    	<div class="companylogo"><a href="http://www.creasaur.net" target="_blank"><img src="assets/images/logos/creasaur.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>March 2018 - November 2018</span></li>
-							<li><span class="bigger">Game Designer<br>
-							<b>Creasaur, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>Worked as a game designer, I was involved in level design, in-game economics, prototyping, playtesting, and maintaining communication between front-end / back-end developers.</div></li>
-                            </div>
-					</ul>
-                    
-					<ul>
-                    	<div class="companylogo"><a href="http://www.pixofun.com/" target="_blank"><img src="assets/images/logos/pixofun.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>February 2016 - July 2017</span></li>
-							<li><span class="bigger">UI/UX Designer<br>
-							<b>Pixofun, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>Worked as an all-around designer, I made just about anything, including UI and UX design, character design, modelling, texturing, sound design, game coding, video editing, and more.</div></li>
-                            </div>
-					</ul>
-                    
-                    <ul>
-                    	<div class="companylogo"><a href="http://www.netvizyon.com.tr/" target="_blank"><img src="assets/images/logos/netvizyon.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>May 2016 - June 2017</span></li>
-							<li><span class="bigger">Freelance Graphic Designer<br>
-							<b>Netvizyon Mediapark, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>Worked as a freelance graphic designer from home office, I mostly made web design and graphic design, of which some were related to games.</div></li>
-                            </div>
-					</ul>
-
-					<ul>
-                    	<div class="companylogo"><a href="http://www.atom.org.tr/" target="_blank"><img src="assets/images/logos/atom.png"></a></div>
-                        	<div class="listcontainer">
-							<li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>July 2014 - November 2014</span></li>
-							<li><span class="bigger">Game & UX Designer<br>
-							<b>ATOM, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>As a newly graduated individual, I took part in several low-budget projects, including some mobile and browser based games.</div></li>
-                            </div>
-					</ul>
-
-					<ul>
-                    	<div class="companylogo"><a href="http://radyobilkent.com/" target="_blank"><img src="assets/images/logos/radiobilkent.png"></a></div>
-							<div class="listcontainer">
-                            <li><span class="smaller"><span class="fas fa-clock" aria-hidden="true"></span>December 2010 - February 2012</span></li>
-							<li><span class="bigger">Graphic Designer & Producer<br>
-							<b>Radio Bilkent, Ankara, Turkey</b></span></li>
-							<li><div class="smaller infocontainer"><span class="fas fa-wrench" aria-hidden="true"></span>Started as a free time filler and got serious real quick, I produced several shows, created intros/outros/jingles, designed posters and promotional material graphics.</div></li>
-                            </div>
-					</ul>
-		</div>
-
-		<!-- Skills -->
-		<div class="content skills">
-				<h2 class="title"><span class="fas titlefa fa-star" aria-hidden="true"></span>Skills</h2><br>
-				
-					<p class="subtitle">On a scale from 0 to 100; <b>0%</b> being Donald Trump - <b>20%</b> being "Installed and ran it once, not sure if it's still installed though." - <b>50%</b> being "Messed around with it some time ago, quite familiar with how it works, and can learn again with ease if needed." - <b>75%</b> being "Knowing it well enough to get most things done." - <b>90%</b> being "Holy F-word, actually close to mastering it." - and <b>100%</b> being Elon Musk, you can see a scale-graph of my skills below.</p>
-					
-					<h3 class="small skill-header">Applications</h3>
-					
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/unity.png" title="Unity"></div>
-									<div class="bar-text">Unity</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-unity" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><p>95%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/unreal.png" title="Unreal Engine"></div>
-									<div class="bar-text">Unreal</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-unreal" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><p>65%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/illustrator.png" title="Illustrator"></div>
-									<div class="bar-text">Illustrator</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-illustrator" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><p>90%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/photoshop.png" title="Photoshop"></div>
-									<div class="bar-text">Photoshop</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-photoshop" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><p>85%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/xd.png" title="XD"></div>
-									<div class="bar-text">XD</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-xd" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><p>85%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/aftereffects.png" title="After Effects"></div>
-									<div class="bar-text">After Effects</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-aftereffects" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><p>75%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/audition.png" title="Audition"></div>
-									<div class="bar-text">Audition</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-audition" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>70%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/indesign.png" title="InDesign"></div>
-									<div class="bar-text">InDesign</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-indesign" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><p>60%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/dreamweaver.png" title="Dreamweaver"></div>
-									<div class="bar-text">Dreamweaver</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-dreamweaver" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><p>65%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/premiere.png" title="Premiere"></div>
-									<div class="bar-text">Premiere</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-premiere" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><p>60%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/office.png" title="Office"></div>
-									<div class="bar-text">Office</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-office" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><p>75%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/visualstudio.png" title="Visual Studio"></div>
-									<div class="bar-text">VisualStudio</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-visualstudio" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><p>75%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/git.png" title=".git"></div>
-									<div class="bar-text">Git</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-git" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>70%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/3dsmax.png" title="3DsMax"></div>
-									<div class="bar-text">3DsMax</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-3dsmax" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><p>55%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/maya.png" title="Maya"></div>
-									<div class="bar-text">Maya</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-maya" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><p>35%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/corel.png" title="CorelDRAW"></div>
-									<div class="bar-text">Corel</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-corel" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>30%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					
-					
-					<h3 class="small skill-header">Programming Languages</h3>
-					
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/csharp.png" title="C#"></div>
-									<div class="bar-text">C#</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-csharp" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><p>80%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/html5.png" title="HTML5 / CSS3"></div>
-									<div class="bar-text">HTML/CSS</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-htmlcss" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>70%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/javascript.png" title="JavaScript"></div>
-									<div class="bar-text">JavaScript</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-javascript" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><p>35%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/cplusplus.png" title="C++"></div>
-									<div class="bar-text">C++</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-cplusplus" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>30%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/php.png" title="PHP"></div>
-									<div class="bar-text">PHP</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-php" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><p>25%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-
-					<h3 class="small skill-header">Operating Systems</h3>
-					
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/windows.png" title="Windows 10"></div>
-									<div class="bar-text">Windows</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-windows" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><p>95%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/macosx.png" title="Mac OS X"></div>
-									<div class="bar-text">Mac OS X</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-macosx" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><p>80%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					<ul>
-							<li>
-								<div class="skill-container">
-									<div class="bar-logo"><img src="assets/images/skills/ubuntu.png" title="Linux / Ubuntu"></div>
-									<div class="bar-text">Ubuntu</div>
-									<div class="bar-container"><div class="progress"><span class="progress-bar bar-ubuntu" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><p>75%<p></span></div></div>
-								</div>
-							</li>
-					</ul>
-					
-					<br>
-					<p class="subtitle">For some reason, knowing a decent amount about many different things feels impossible for some people. Depending on what "Knowing it a 100%" corresponds to in your understanding (I mean, if "about to master something" is not 90% but 80% for you (meaning Elon Musk is a 90%, and Trump is actually -10% - although, Trump part still seems pretty probable), values given above may vary. Point is, my skills in comparison to eachother roughly translates to this. For a philosophical discussion about why my knowledge about things are all around the place, you can check the about page.</p>
-		</div>
-        
-        <!-- Games -->
-		<div class="content mygames">
-        	<h2 class="title"><span class="fas titlefa fa-gamepad" aria-hidden="true"></span>Games</h2>
-                	
-					<!--Luca-->
-					<ul>
-						<div class="main gallery thumbnails yoxview bar-game">
-        
-							<a href="games/luca/luca0.png"><img style="margin-top:6px;" src="games/luca/thumbnails/luca0.png" title="Luca - Splash"/></a>
-        
-							<a href="games/luca/luca1.png"><img style="height:50px;" src="games/luca/thumbnails/luca1.png" title="Luca 1"/></a>
-							<a href="games/luca/luca2.png"><img style="height:50px;" src="games/luca/thumbnails/luca2.png" title="Luca 2"/></a>
-							<a href="games/luca/luca3.png"><img style="height:50px;" src="games/luca/thumbnails/luca3.png" title="Luca 3"/></a>
-							<a href="games/luca/luca4.png"><img style="height:50px;" src="games/luca/thumbnails/luca4.png" title="Luca 4"/></a>
-							<a href="games/luca/luca5.png"><img style="height:50px;" src="games/luca/thumbnails/luca5.png" title="Luca 5"/></a>
-		
+				<div class="white-bottom">
+					<a href="#filter=.about">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Experience</h2>
+					<div style="overflow-y:auto; overflow-x:hidden;">
+						<div class="about_exp_logo"><a href="http://www.mildmania.com" target="_blank"><img src="images//logos/mildmania.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> September 2020 - Now</p>
+							<h4 class="about_edu_study">Senior Game & UX Designer</h4>
+							<h5 class="about_edu_school">MildMania<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Full-Time</h5>
 						</div>
-							
-						<div class="gamecontainer">
-                            <div class="bigger" style="margin-top:25px; margin-bottom:0px">Luca: The Dreamer<p class="subtitle">Creasaur Entertainment Co. (2018)</p></div>
-							<div class="infocontainer"><p class="subtitle">“Luca: The Dreamer” is a challenging puzzle platformer about the adventures of a football named Luca, developed for Android and iOS. It sadly had a very short development span of 4 months and a very intense development cycle of up to 60-hour workweeks. As a result, even though me and my co-workers tried our best, it came up a bit short. Still, final product is a very fun little game.<br><br>I was the project lead. I did all the game design, level design, mechanics design, development planning, UX design, and Unity implementation of all the assets.</p></div>
-							
-							<div style="margin-top:24px; margin-bottom:16px; font-size:16px">
-								<a href="https://play.google.com/store/apps/details?id=com.creasaur.luca" target="_blank">Google Play</a> |
-								<a href="https://apps.apple.com/us/app/luca-the-dreamer/id1397383403" target="_blank">App Store</a>
-							</div>
-							
-                        </div>
-					</ul>
-					
-					<!--Jö-->
-					<ul>
-						<div class="main gallery thumbnails yoxview bar-game">
-        
-							<a href="games/jo/jo0.png"><img style="margin-top:6px;" src="games/jo/thumbnails/jo0.png" title="Jö - Poster"/></a>
-        
-							<a href="games/jo/jo1.png"><img style="height:50px;" src="games/jo/thumbnails/jo1.png" title="Jö 1"/></a>
-							<a href="games/jo/jo2.png"><img style="height:50px;" src="games/jo/thumbnails/jo2.png" title="Jö 2"/></a>
-							<a href="games/jo/jo3.png"><img style="height:50px;" src="games/jo/thumbnails/jo3.png" title="Jö 3"/></a>
-							<a href="games/jo/jo4.png"><img style="height:50px;" src="games/jo/thumbnails/jo4.png" title="Jö 4"/></a>
-							<a href="games/jo/jo5.png"><img style="height:50px;" src="games/jo/thumbnails/jo5.png" title="Jö 5"/></a>
-		
-						</div>
-							
-						<div class="gamecontainer">
-                            <div class="bigger" style="margin-top:25px; margin-bottom:0px">Jö<p class="subtitle">Indie Project (2016)</p></div>
-							<div class="infocontainer"><p class="subtitle">Started as a school project, "Jö" is my first fully-playable PC game with working mechanics, actual levels and a decent story, where you play as an entity named Jö, trying to discover the meaning of its existence and its connection with the concept of reality. I did every aspect of it, and learned a lot while doing so. Although I'm not able to spare much time to develop it any further for a while now, I honestly think that it really contains some great ideas, and may have a potential. I really hope to complete it one day with substantial imporevements and release it as a free game.<br><br>Due to its relatively incomplete state and my belief about actually releasing it one day, I won't be able to provide a prototype as of now.</p></div>
-							
-                        </div>
-					</ul>
-					
-					<!--Baduka-->
-					<ul>
-						<div class="main gallery thumbnails yoxview bar-game">
-        
-							<a href="games/baduka/baduka0.png"><img style="margin-top:6px;" src="games/baduka/thumbnails/baduka0.png" title="Baduka - Splash"/></a>
-        
-							<a href="games/baduka/baduka1.png"><img style="height:50px;" src="games/baduka/thumbnails/baduka1.png" title="Baduka 1"/></a>
-							<a href="games/baduka/baduka2.png"><img style="height:50px;" src="games/baduka/thumbnails/baduka2.png" title="Baduka 2"/></a>
-							<a href="games/baduka/baduka3.png"><img style="height:50px;" src="games/baduka/thumbnails/baduka3.png" title="Baduka 3"/></a>
-							<a href="games/baduka/baduka4.png"><img style="height:50px;" src="games/baduka/thumbnails/baduka4.png" title="Baduka 4"/></a>
-							<a href="games/baduka/baduka5.png"><img style="height:50px;" src="games/baduka/thumbnails/baduka5.png" title="Baduka 5"/></a>
-		
-						</div>
-							
-						<div class="gamecontainer">
-                            <div class="bigger" style="margin-top:25px; margin-bottom:0px">Baduka<p class="subtitle">Creasaur Entertainment Co. (2018)</p></div>
-							<div class="infocontainer"><p class="subtitle">“Baduka” is a casual puzzle game developed for Android. Inspired by Japanese puzzle games like Sudoku, Kakuro and Hitori, this game is about perfectly depleting numbers on a given board by jumping them on top of eachother.<br><br>I co-designed the game, and did most of UI/UX design.</p></div>
-							
-							<div style="margin-top:24px; margin-bottom:16px; font-size:16px">
-								<a href="https://play.google.com/store/apps/details?id=com.creasaur.baduka" target="_blank">Google Play</a>
-							</div>
-							
-                        </div>
-					</ul>
-					
-					<!--Next, Please!-->
-					<ul>
-						<div class="main gallery thumbnails yoxview bar-game">
-        
-							<a href="games/nextplease/nextplease0.png"><img style="margin-top:6px;" src="games/nextplease/thumbnails/nextplease0.png" title="Next, Please! - Splash"/></a>
-        
-							<a href="games/nextplease/nextplease1.png"><img style="height:50px;" src="games/nextplease/thumbnails/nextplease1.png" title="Next, Please! 1"/></a>
-							<a href="games/nextplease/nextplease2.png"><img style="height:50px;" src="games/nextplease/thumbnails/nextplease2.png" title="Next, Please! 2"/></a>
-							<a href="games/nextplease/nextplease3.png"><img style="height:50px;" src="games/nextplease/thumbnails/nextplease3.png" title="Next, Please! 3"/></a>
-							<a href="games/nextplease/nextplease4.png"><img style="height:50px;" src="games/nextplease/thumbnails/nextplease4.png" title="Next, Please! 4"/></a>
-							<a href="games/nextplease/nextplease5.png"><img style="height:50px;" src="games/nextplease/thumbnails/nextplease5.png" title="Next, Please! 5"/></a>
-		
-						</div>
-							
-						<div class="gamecontainer">
-                            <div class="bigger" style="margin-top:25px; margin-bottom:0px">Next, Please!<p class="subtitle">Pixofun (2016)</p></div>
-							<div class="infocontainer"><p class="subtitle">Next, Please! is a serious game for PC users of some sales firms, aiming to educate customer representatives, and improve their sales performance by teaching them how they can approach to different types of customers with different personalities.<br><br>I did the UI/UX design for multiple versions (Last image for example, is from an earlier version), sound design, some modelling & texturing, and co-produced all of its earlier teasers & trailers.<br><br>Oh, I also found the name.</p></div>
-							
-							<div style="margin-top:24px; margin-bottom:16px; font-size:16px">
-								<a href="https://www.youtube.com/watch?v=4r8iOu7B1pw" target="_blank">Teaser</a>
-							</div>
-							
-                        </div>
-					</ul>
-				<p class="subtitle">If you missed it, you can click on images to enlarge and examine them. There are around 10 more games that I have heavily worked on. Feel free to request my portfolio if you have something in mind and would like to see the other games.</p>
-		</div>
-        
-        <!-- Gallery -->
-        <div class="content gallerypage">
-        	<h2 class="title"><span class="fas titlefa fa-paint-brush" aria-hidden="true"></span>Gallery</h2><br>
-				<p class="subtitle">Although I would really love to, I never had the chance to improve myself in terms of my drawing. In the earliest days of my life, I drew a lot, but I never had the intent to make others like what I draw, that it didn't really got appreciated. They were like technical drawings (which explains why I had upright A's on my technical drawing classes at university), of where I made every detail count, at least on my mind, but it was a mess for the others. In the end, I was discouraged, and focused on other things like playing guitar and piano, or reading a lot of books.<br><br>I'm not a good illustrator, in fact, a below average one in my honest opinion, but my drawing instructor at the university always told us that 'You don't need to be a good illustrator in order to be a good graphic designer.' and even though I don't consider myself to be a graphic designer anymore, I have counted on that while studying. Since I'm pretty aware of my drawing capabilities, I mostly focused on particular styles I think I do well enough, like vector drawing, which is a consequence of being bad at drawing with pen and paper, and experimented once in a while, too. Here are some examples.</p>
-                
-			<div class="main gallery thumbnails yoxview">
-        
-        		<a href="gallery/gorillazben.jpg"><img src="gallery/thumbnails/gorillazben.jpg" alt="Gorillaz Self-Portrait" title="As a tribute to album 'Demon Days' by Gorillaz, I illustrated myself in the style of Demon Days cover art. Still one of my favorites."/></a>
-        
-        		<a href="gallery/limbocat.jpg"><img src="gallery/thumbnails/limbocat.jpg" alt="Limbo Cat" title="'Limbo Cat' illustration I made back in 2011, inspired by the game 'Limbo' and influenced by my love for cats."/></a>
-        
-        		<a href="gallery/bili.jpg"><img src="gallery/thumbnails/bili.jpg" alt="An Old Friend" title="An old friend I illustrated, with her signature red Vespa Scooter."/></a>
-                
-                <a href="gallery/bjork.jpg"><img src="gallery/thumbnails/bjork.jpg" alt="Tribute to Björk" title="I adored Björk for a really long time. When our illustration instructor asked us to pay tribute to an artist we like, my topic was obvious. This illustrations combines all of Björk's album covers to date."/></a>
-                
-                <a href="gallery/doodle.jpg"><img src="gallery/thumbnails/doodle.jpg" alt="Google Doodle" title="A Google Doodle project I made back in school, my randomized topic was 'Polar Bears Day'. Not the most exciting one, but hey..."/></a>
-                
-                <a href="gallery/vwtank.jpg"><img src="gallery/thumbnails/vwtank.jpg" alt="We want peace!" title="A sharptongued interpretation of my hate against any kind of war. It's simple, really."/></a>
-        
-        	</div>
-            
-            <div style="float:left;"><p class="subtitle"><br>Can't imagine why you would, but if you actually want to see more of my illustrations, feel free to request my portfolio.</p><br><br></div>
-		</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> Currently working as a senior game & UX designer, I am responsible for level design, mechanics design, balancing, prototyping, playtesting, UX design of several mid-core mobile games and UI/UX design, live-ops, balancing of several hardcore Roblox games.</p></div>
 
-		<!-- Contact -->
-		<div class="content contact">
+						<div class="about_exp_logo"><a href="http://www.creasaur.net" target="_blank"><img src="images//logos/creasaur.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> March 2018 - January 2019</p>
+							<h4 class="about_edu_study">Game Designer</h4>
+							<h5 class="about_edu_school">Creasaur Entertainment Co.<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Full-Time</h5>
+						</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> Worked as a game designer, my responsibilities were mechanics design, level design, balancing, prototyping, playtesting, ideation, in-game economics and engine implementations of assets for several casual mobile games.</p></div>
+						
+						<div class="about_exp_logo"><a href="http://www.pixofun.com/" target="_blank"><img src="images//logos/pixofun.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> February 2016 - August 2017</p>
+							<h4 class="about_edu_study">UI/UX Designer</h4>
+							<h5 class="about_edu_school">Pixofun<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Full-Time</h5>
+						</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> As my job title and primary focus was designing the UI/UX of serious games, I also worked as a generalist, filling a wide variety of other roles when requested including illustration, animation, game & mechanics design, trailer & teaser production, 3D modelling & texturing, prototyping, play testing, sound design and localization.</p></div>
+						
+						<div class="about_exp_logo"><a href="http://www.netvizyon.com.tr/" target="_blank"><img src="images//logos/netvizyon.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> May 2016 - June 2017</p>
+							<h4 class="about_edu_study">Graphic Designer</h4>
+							<h5 class="about_edu_school">Netvizyon<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Freelance</h5>
+						</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> In the free time I had remaining from my full-time job at the time, I took part as additional support for graphic design projects with strict deadlines. I also made several translations and worked on a concept framework for a future game  project.</p></div>
+						
+						<div class="about_exp_logo"><a href="http://www.atom.org.tr/" target="_blank"><img src="images//logos/atom.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> August 2014 - January 2015</p>
+							<h4 class="about_edu_study">UI/UX Designer</h4>
+							<h5 class="about_edu_school">ODTÜ Teknokent Atom<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Part-Time</h5>
+						</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> As a starting point to my career in the games industry, I worked as a UI/UX designer and I took part in several low-budget casual game projects for mobile & an online multiplayer social game developed for browsers.</p></div>
+						
+						<div class="about_exp_logo"><a href="http://radyobilkent.com/" target="_blank"><img src="images//logos/radiobilkent.png"></a></div>
+						<div class="about_exp_container">
+							<p class="about_edu_date"><i class="fa fa-clock"></i> November 2010 - February 2012</p>
+							<h4 class="about_edu_study">Producer & Graphic Designer</h4>
+							<h5 class="about_edu_school">Radio Bilkent<br>Ankara, Turkey</h5>
+							<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Part-Time</h5>
+						</div>
+						<div class="about_exp_info"><p><i class="fa fa-info-circle"></i> At the radio of my university, my responsibilities consisted of producing several shows, editing podcasts, recording sessions, creating intros/outros/jingles, as well as designing deters and promotional material graphics.</p></div>
+					</div>
 
-				<h2 class="title"><span class="fas titlefa fa-globe" aria-hidden="true"></span>Contact</h2>
-				<p class="subtitle">I actually am someone who travels a lot, but my educational and professional career have always revolved around Ankara (the capital of Turkey) as a result of my domestic personality. Aside from Ankara, I have been in Munich, Paris, and İzmir for the most of my time, and have great knowledge about these places. I am open to all opportunities from Europe (especially Iceland, Norway, Germany), USA and Canada.<br><br></p>
+					<hr>
+
+					<p>As a student of graphic design, there was a time where I had to work in some advertisement agencies, printhouses, and take part in some graphic design stuff, but I never really liked doing something purely related to graphic design, thus most of my work were not that good, because no passion was present.</p><p>After completing my education and acquiring experiences above, I don't consider working in any other sector than the games industry anymore, since I now have both the required knowledge and experience to take part in doing what I love.</p>
+				</div>
+			</div>
+			
+			<!-- Detail Info -->
+			<!--<div class="element clearfix col2-3 det det_info">
 				
-					<div class="about-list"><ul>
-					<li><span class="smaller miniheader"><span class="fas fa-thumbtack" aria-hidden="true"></span>Address</span></li>
-					<li><span class="bigger3">From:<br></span><span class="bigger2"><b>İzmir, Turkey</b></span></li><br>
-					<li><span class="bigger3">Currently residing in:<br></span><span class="bigger2"><b>Ankara, Turkey</b></span></li>
-					<br>
-					</ul></div>
+				<div class="white-bottom">
+					<a href="#filter=.about">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Detailed Info</h2>
+					<div style="overflow-y:auto; overflow-x:hidden;">
+						
+					</div>
+
+					<hr>
+
+					<p>Text</p>
+				</div>
+			</div>-->
+			
+			<!-- Detail UI/UX Design -->
+			<div class="element clearfix col2-3 det det_uiux">
+				<div class="white-bottom">
+					<a href="#filter=.skills"><div class="icons2 close"></div></a>
 					
-					<div class="about-list"><ul>
-					<li><span class="smaller miniheader"><span class="fas fa-envelope" aria-hidden="true"></span>Contact</span></li>
-					<li><span class="bigger3">
-					<a href="mailto:bledatunay@gmail.com?subject=Please fill the subject.">bledatunay@gmail.com</a>
-					</span>
-					<span class="smaller1">
-					<br><br>
-					<a href="mailto:bleda@alumni.bilkent.edu.tr?subject=Please fill the subject.">bleda@alumni.bilkent.edu.tr</a><br>
-					<a href="mailto:bleda.tunay@metu.edu.tr?subject=Please fill the subject.">bleda.tunay@metu.edu.tr</a>
-					</span></li>
-					<br>
-					</ul></div>
-					<!-- LOL I HAD TO--><br><br><br><br><br><br><br><br><br><br>
+					<h2 style="margin-bottom:20px;">UI/UX Design</h2>
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/unity.png" title="Unity"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 95%; background-color: #3c3c3c;"><p>95%<p><div class="pbar-text">Unity</div></div></div></div>
+					</div></li></ul>
 					
-                    
-                    <!--<h3 class="smaller">You can also contact me by filling the form below (or via any of my social media accounts if you are feeling relentless).</h3><br>
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/illustrator.png" title="Illustrator"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 90%; background-color: #ea7c10;"><p>90%<p><div class="pbar-text">Illustrator</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/photoshop.png" title="Photoshop"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 85%; background-color: #16b4c9;"><p>85%<p><div class="pbar-text">Photoshop</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/xd.png" title="XD"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 85%; background-color: #ce4391;"><p>85%<p><div class="pbar-text">XD</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/aftereffects.png" title="After Effects"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 70%; background-color: #9256b2;"><p>70%<p><div class="pbar-text">After Effects</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/axure.png" title="Axure"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 40%; background-color: #2a87c8;"><p>40%<p><div class="pbar-text">Axure</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/audition.png" title="Audition"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 35%; background-color: #0db381;"><p>35%<p><div class="pbar-text">Audition</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/premiere.png" title="Premiere"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 30%; background-color: #b05bb9;"><p>30%<p><div class="pbar-text">Premiere</div></div></div></div>
+					</div></li></ul>
 
-				<div role="form" lang="en-US" dir="ltr">
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/dreamweaver.png" title="Dreamweaver"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 30%; background-color: #51d326;"><p>30%<p><div class="pbar-text">Dreamweaver</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/indesign.png" title="InDesign"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 25%; background-color: #cf3f7c;"><p>25%<p><div class="pbar-text">InDesign</div></div></div></div>
+					</div></li></ul>
+				</div>
+			</div>
+			
+			<!-- Detail Game Design -->
+			<div class="element clearfix col2-3 det det_game">
+				<div class="white-bottom">
+					<a href="#filter=.skills">
+						<div class="icons2 close"></div>
+					</a>
+					<h2 style="margin-bottom:20px;">Game Design</h2>
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/gsheets.png" title="Google Sheets"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 90%; background-color: #1ea362;"><p>90%<p><div class="pbar-text">Google Sheets</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/gdiagrams.png" title="Google Diagrams"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 85%; background-color: #df6c0c;"><p>85%<p><div class="pbar-text">Google Diagrams</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/gdocs.png" title="Google Docs"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 80%; background-color: #4d8cf5;"><p>80%<p><div class="pbar-text">Google Docs</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/gslides.png" title="Google Slides"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 80%; background-color: #f5ba14;"><p>80%<p><div class="pbar-text">Google Slides</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/gforms.png" title="Google Forms"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 60%; background-color: #6f45bb;"><p>60%<p><div class="pbar-text">Google Forms</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/machinations.png" title="Machinations"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 45%; background-color: #3e64e4;"><p>45%<p><div class="pbar-text">Machinations</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/twine.png" title="Twine"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 45%; background-color: #15f061;"><p>45%<p><div class="pbar-text">Twine</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/construct.png" title="Construct"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 30%; background-color: #97acba;"><p>30%<p><div class="pbar-text">Construct</div></div></div></div>
+						</div></li></ul>
+				</div>
+			</div>
+			
+			<!-- Detail Programming -->
+			<div class="element clearfix col2-3 det det_prog">	
+				<div class="white-bottom">
+					<a href="#filter=.skills">
+						<div class="icons2 close"></div>
+					</a>
+					<h2 style="margin-bottom:20px;">Programming</h2>
 
-					<div class="screen-reader-response"></div>-->
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/csharp.png" title="C#"></div><div class="pbar-text">C#</div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 75%; background-color: #9a4993;"><p>75%<p><div class="pbar-text">C#</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/git.png" title=".Git"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 70%; background-color: #f05030;"><p>70%<p><div class="pbar-text">.Git</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/visualstudio.png" title="Visual Studio"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 70%; background-color: #6a3e9c;"><p>70%<p><div class="pbar-text">Visual Studio</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/html5.png" title="HTML5"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 65%; background-color: #f16529;"><p>65%<p><div class="pbar-text">HTML5</div></div></div></div>
+						</div></li></ul>
 
-					<!-- Google Form Script (bledatunay Contact WebApp) -->
-					 
-					 <!--<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxCG1sQNguPvG3m01JTyL9KICG9RHMpKaVCLQpmQ1wEWGocCnk-DISABLE-/exec" novalidate>
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/css3.png" title="CSS3"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 65%; background-color: #1572b6;"><p>65%<p><div class="pbar-text">CSS3</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/javascript.png" title="JavaScript"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 50%; background-color: #fb9d20;"><p>50%<p><div class="pbar-text">JavaScript</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/python.png" title="Python"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 30%; background-color:#ffca1d;"><p>30%<p><div class="pbar-text">Python</div></div></div></div>
+						</div></li></ul>
 
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/cplusplus.png" title="C++"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 25%; background-color: #00599c;"><p>25%<p><div class="pbar-text">C++</div></div></div></div>
+						</div></li></ul>
+						
+						<ul><li><div class="skill_container">
+							<div class="pbar-logo"><img src="images//skills/php.png" title="PHP"></div>
+							<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 25%; background-color: #36447f;"><p>25%<p><div class="pbar-text">PHP</div></div></div></div>
+						</div></li></ul>
+				</div>
+			</div>
+			
+			<!-- Detail General Skills -->
+			<div class="element clearfix col2-3 det det_gene">
+				<div class="white-bottom">
+					<a href="#filter=.skills"><div class="icons2 close"></div></a>
+					<h2>General Skills</h2>
+					
+					<p class="skill_title">Spoken Languages:</p>
+						
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/tur.png" title="Turkish"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 99%; background-color: #cc0914;"><p>99%<p><div class="pbar-text">Turkish</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img class="lang_flag" src="images//skills/eng.png" title="English"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 95%; background-color: #43438f;"><p>95%<p><div class="pbar-text">English</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/ger.png" title="German"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 35%; background-color: #ffca00;"><p>35%<p><div class="pbar-text">German</div></div></div></div>
+					</div></li></ul>
+						
+					<hr>
+						
+					<p class="skill_title">Operating Systems:</p>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/windows.png" title="Windows"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 99%; background-color: #0078d4;"><p>99%<p><div class="pbar-text">Windows</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/macosx.png" title="Mac OS X"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 80%; background-color: #2f7f6c;"><p>80%<p><div class="pbar-text">Mac OS X</div></div></div></div>
+					</div></li></ul>
+					
+					<ul><li><div class="skill_container">
+						<div class="pbar-logo"><img src="images//skills/ubuntu.png" title="Linux / Ubuntu"></div>
+						<div class="pbar-container"><div class="pbar"><div class="pbar-bar" style="width: 75%; background-color: #ff7510;"><p>75%<p><div class="pbar-text">Linux / Ubuntu</div></div></div></div>
+					</div></li></ul>
+						
+					<hr>
+					
+					<p class="skill_title">Alternative Frameworks & Other Applications I'm Familiar With:</p>
+						
+					<div class="skills_container_iconsonly">
+						<img src="images//skills/figma.png" title="Figma">
+						<img src="images//skills/invision.png" title="InVision">
+						<img src="images//skills/unreal.png" title="Unreal Engine">
+						<img src="images//skills/corel.png" title="Corel Draw">
+						<img src="images//skills/vegas.png" title="Vegas Pro">
+						<img src="images//skills/3dsmax.png" title="3DsMax">
+						<img src="images//skills/maya.png" title="Maya">
+						<img src="images//skills/blender.png" title="Blender">
+					</div>
+				</div>
+			</div>
+
+		<!-- Summaries -->
+
+			<!-- Home -->
+			<!--<div class="element clearfix col1-1 home">
+				<div class="col2-3">
+					<div class="images">
+						<img src="images/mypictures/portrait_wide.jpg" alt="" />
+					</div>
+				</div>
+				<div class="col1-3 white-right">
+					<a href="#filter=#filter=.about"><h2>Hello, I'm Bleda.</h2></a>
+					<p>I am someone who plays, designs, dreams and lives games.</p>
+					<p>My only and ultimate goal, is to create or take part in the creation of great games, like the many I've played to this day, which made me who I am.</p>
+					<p>I am from İzmir, Turkey. I am currently living and working in Ankara, Turkey.</p>
+					<div class="more"><p><a href="#filter=.about" class="mobToTop" href="#">More about me <i class="fa fa-arrow-right"></i></a></p></div>
+				</div>
+				<div class="clear"></div>
+			</div>-->
+
+			<!-- Home 2x1 -->
+			<div class="element clearfix col2-3 home">
+				<div class="col1-3 connect">
+					<div class="images"><img src="images/mypictures/portrait_narrow.png" alt="" /></div>
+				</div>
+				<div class="col1-3 white-right2">
+					<a href="#filter=#filter=.about"><h2>Hello, I'm Bleda.</h2></a>
+					<p>I am someone who plays, designs, dreams and lives games.</p>
+					<p>My only and ultimate goal, is to create or take part in the creation of great games, like the many I've played to this day, which made me who I am.</p>
+					<p>I am from İzmir, Turkey. I am currently living and working in Ankara, Turkey.</p>
+					<div class="more"><p><a href="#filter=.about" class="mobToTop" href="#">More about me <i class="fa fa-arrow-right"></i></a></p></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Looking for Work -->
+			<a style="font-weight:normal;" href="#filter=.contact,+.contactform" class="mobToTop" href="#"><div class="element home clearfix col1-3 lookingforwork">
+				<h2 style="color:#222222"><i class="fa fa-search"></i> OPEN TO WORK!</h2>
+
+				<p style="margin-top:6px; color:#222222;">Hey there! I am currently open for new job opportunities, primarily in <b><u>Europe</u></b>, <b><u>Canada</u></b> or <b><u>USA</u></b>.<br><br>
+				I am up for both office, hybrid and remote jobs. For office and hybrid jobs, I am willing to relocate.<br><br>
+				If you think I may be a good fit for your team, <b>let's get in touch!</b><br><br>Thanks for your time checking out my online profile & portfolio.</p>
+				
+				<div class="clear"></div>
+			</div></a>
+												
+			<!-- Education -->
+			<div class="element clearfix col1-3 about education">
+				<a href="#filter=.about%3Anot(.education,+.experience),+.det_education,+.small_experience"><h2>Education</h2></a>
+				
+				<p class="about_edu_date"><i class="fa fa-clock"></i> 2016 &ndash; 2020</p>
+				<h4 class="about_edu_study">Game Technologies (MS)</h4>
+				<h5 class="about_edu_school">Middle East Technical University<br>Ankara, Turkey</h5>
+				<h5 class="about_edu_cgpa"><i class="fa fa-graduation-cap"></i> CGPA: 3.79/4.00</h5>
+				
+				<p class="about_edu_date"><i class="fa fa-clock"></i> 2010 &ndash; 2014</p>
+				<h4 class="about_edu_study">Graphic Design (BA)</h4>
+				<h5 class="about_edu_school">Bilkent University<br>Ankara, Turkey</h5>
+				<h5 class="about_edu_cgpa"><i class="fa fa-graduation-cap"></i> CGPA: 3.40/4.00</h5>
+				
+				<div class="more"><p><a href="#filter=.about%3Anot(.education,+.experience),+.det_education,+.small_experience">More about my education <i class="fa fa-arrow-right"></i></a></p></div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Experience -->
+			<div class="element clearfix col2-3 about experience">
+				<div class="col1-3 connect">
+					<div class="images"><img src="images/mypictures/bleda_bandana.jpg" alt="" /></div>
+				</div>
+				<div class="col1-3 white-right2">
+					<a href="#filter=.about%3Anot(.experience),+.det_experience" class="mobToTopDet" href="#"><h2>Experience</h2></a>
+					
+					<h4 class="experience_info_title">In the games industry for:<br></h4>
+					<p class="experience_info_text">+8 years</p>
+					
+					<h4 class="experience_info_title">Been a passionate gamer for:<br></h4>
+					<p class="experience_info_text">27 years</p>
+					
+					<p class="about_edu_date"><i class="fa fa-clock"></i> September 2020 - Now</p>
+					<h4 class="about_edu_study">Senior Game & UX Designer</h4>
+					<h5 class="about_edu_school">MildMania<br>Ankara, Turkey</h5>
+					<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Full-Time</h5>
+
+					<div class="more"><p><a href="#filter=.about%3Anot(.experience),+.det_experience" class="mobToTopDet" href="#">More about my experience <i class="fa fa-arrow-right"></i></a></p></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Small Experience -->
+			<div class="element clearfix col1-3 small_experience">
+				<div class="col1-3 white-right2">
+					<a href="#filter=.about%3Anot(.experience),+.det_experience" class="mobToTopDet" href="#"><h2>Experience</h2></a>
+					
+					<h4 style="font-size:14px; font-weight:normal;">In the games industry for:<br></h4>
+					<p style="font-size:26px; font-weight:bold; padding-top:6px;">+8 years</p>
+					
+					<h4 style="font-size:14px; font-weight:normal;">Been a passionate gamer for:<br></h4>
+					<p style="font-size:26px; font-weight:bold; padding-top:6px;">27 years</p>
+					
+					<p class="about_edu_date"><i class="fa fa-clock"></i> September 2020 - Now</p>
+					<h4 class="about_edu_study">Senior Game & UX Designer</h4>
+					<h5 class="about_edu_school">MildMania<br>Ankara, Turkey</h5>
+					<h5 class="about_edu_cgpa"><i class="fa fa-wrench"></i> Full-Time</h5>
+
+					
+					<div class="more"><p><a href="#filter=.about%3Anot(.experience),+.det_experience" class="mobToTopDet" href="#">More about my experience <i class="fa fa-arrow-right"></i></a></p></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Basic Info -->
+			<div class="element clearfix col1-3 about info">
+				<div class="col1-3 white-right2">
+					<h2>Basic Info</h2>
+					
+					<h4 class="basic_info_title">From:</h4>
+					<p class="basic_info_text">İzmir, Turkey</p>
+					
+					<h4 class="basic_info_title">Born in:</h4>
+					<p class="basic_info_text">1992</p>
+					
+					<h4 class="basic_info_title">Marital status:</h4>
+					<p class="basic_info_text">Engaged</p>
+					
+					<h4 class="basic_info_title">Drivers license:</h4>
+					<p class="basic_info_text">B, A2</p>
+					
+					<h4 class="basic_info_title">Mandatory military service:</h4>
+					<p class="basic_info_text">Completed</p>	
+									</div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- UI/UX Design -->
+			<div class="element clearfix col1-3 skills uiux">
+				<a href="#filter=.skills%3Anot(.uiux),+.det_uiux" class="mobToTopDet" href="#"><h2>UI/UX Design</h2></a>
+				<div class="skills_container">
+					<img class="skill_container_img" src="images//skills/unity.png" title="Unity">
+					<img class="skill_container_img" src="images//skills/illustrator.png" title="Illustrator">
+					<img class="skill_container_img" src="images//skills/photoshop.png" title="Photoshop">
+					<img class="skill_container_img" src="images//skills/axure.png" title="Axure">
+					<img class="skill_container_img" src="images//skills/xd.png" title="XD">
+					<img class="skill_container_img" src="images//skills/aftereffects.png" title="After Effects">
+				</div>
+				<ul class="falist fa-ul skills_list">
+					<li><i class="fa-li fa fa-angle-double-right"></i>User Interface</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>User Experience</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>UX Research</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Wireframing</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Interaction Design</li>
+				</ul>
+				<div class="more"><p><a href="#filter=.skills%3Anot(.uiux),+.det_uiux" class="mobToTopDet" href="#">More about this <i class="fa fa-arrow-right"></i></a></p></div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Game Design -->
+			<div class="element clearfix col1-3 skills game">
+				<a href="#filter=.skills%3Anot(.game),+.det_game" class="mobToTopDet" href="#"><h2>Game Design</h2></a>
+				<div class="skills_container">
+				<img class="skill_container_img" src="images//skills/gsheets.png" title="Google Sheets">
+					<img class="skill_container_img" src="images//skills/gdocs.png" title="Google Docs">
+					<img class="skill_container_img" src="images//skills/gdiagrams.png" title="Google Diagrams">
+					<img class="skill_container_img" src="images//skills/gslides.png" title="Google Slides">
+					<img class="skill_container_img" src="images//skills/gforms.png" title="Google Forms">
+					<img class="skill_container_img" src="images//skills/machinations.png" title="Machinations">					
+				</div>
+				<ul class="falist fa-ul skills_list">
+					<li><i class="fa-li fa fa-angle-double-right"></i>Systems &amp; Mechanics</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Level Design</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Economy &amp; Balancing</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Design Documentation</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Concepts &amp; Pitches</li>
+				</ul>
+				<div class="more"><p><a href="#filter=.skills%3Anot(.game),+.det_game" class="mobToTopDet" href="#">More about this <i class="fa fa-arrow-right"></i></a></p></div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Programming -->
+			<div class="element clearfix col1-3 skills prog">
+				<a href="#filter=.skills%3Anot(.prog),+.det_prog" class="mobToTopDet" href="#"><h2>Programming</h2></a>
+				<div class="skills_container">
+					<img class="skill_container_img" src="images//skills/csharp.png" title="C#">
+					<img class="skill_container_img" src="images//skills/cplusplus.png" title="C++">
+					<img class="skill_container_img" src="images//skills/python.png" title="Python">
+					<img class="skill_container_img" src="images//skills/html5.png" title="HTML/CSS">
+					<img class="skill_container_img" src="images//skills/javascript.png" title="JavaScript">
+					<img class="skill_container_img" src="images//skills/visualstudio.png" title="Visual Studio">
+				</div>
+				<ul class="falist fa-ul skills_list">
+					<li><i class="fa-li fa fa-angle-double-right"></i>Interface Scripting</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Prototyping</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Software Design</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Web Design</li>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Basic Programming</li>
+				</ul>
+				<div class="more"><p><a href="#filter=.skills%3Anot(.prog),+.det_prog" class="mobToTopDet" href="#">More about this <i class="fa fa-arrow-right"></i></a></p></div>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- General Skills -->
+			<div class="element clearfix col1-3 skills gene" >
+				<a href="#filter=.skills%3Anot(.gene),+.det_gene" class="mobToTopDet" href="#"><h2>General Skills</h2></a>
+				<ul class="falist fa-ul">
+					<li><i class="fa-li fa fa-angle-double-right"></i>Spoken Languages</li>
+					<p class="skills_list_sum">Turkish, English, German</p>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Operating Systems</li>
+					<p class="skills_list_sum">Windows, Mac OS X, Linux / Ubuntu</p>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Alternative Frameworks</li>
+					<p class="skills_list_sum">Figma, InVision, Corel, Unreal, Vegas Pro</p>
+					<li><i class="fa-li fa fa-angle-double-right"></i>Other Applications</li>
+					<p class="skills_list_sum">3DsMax, Maya, Blender</p>
+				</ul>
+				<div class="more"><p><a href="#filter=.skills%3Anot(.gene),+.det_gene" class="mobToTopDet" href="#">More about this <i class="fa fa-arrow-right"></i></a></p></div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Contact Form -->
+			<div class="element clearfix col2-3 contactform">
+				<h2>Submit a Message</h2>
+				<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxCG1sQNguPvG3m01JTyL9KICG9RHMpKaVCLQpmQ1wEWGocCnk/exec" novalidate>
+					<div style="padding:20px 40px 20px 40px; overflow:auto;">
 						<div class="field">
 							<span><input type="text" name="name" value="" size="40" id="name" aria-required="true" aria-invalid="false" placeholder="Your name" /></span>
 						</div>
@@ -730,88 +729,1003 @@
 							<span><input type="email" name="email" value="" size="40" id="email" aria-required="true" aria-invalid="false" placeholder="Your email" /></span>
 						</div>
 						
-						<div class="field">
-							<span><textarea name="message" style="line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Please fill all areas, and give a valid email, else your form will not be submitted." aria-invalid="false"></textarea></span>
-						</div>-->
-						
-						<!--<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>-->
-						
-						<!--<div class="field">
-							<button type="submit" value="Send" class="btn btn-s btn-1 btn-1c margin-top">Send</button>
+						<div class="field" style="width:100%; height:170px; min-width:210px;">
+							<span><textarea name="message" style="resize:none; width:90%; min-width:210px; height:150px; line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Your message - Please fill all the areas and provide a valid email adress so that I can get back to you." aria-invalid="false"></textarea></span>
 						</div>
 						
-					 </form>
- 
-					<div style="display:none;" id="thankyou_message">
-						<br><h3 class="smaller"><b>Thanks for contacting, I will get back to you as soon as possible. Probably in a day or so.</b></h3>
-						<p class="subsubtitle" style="margin-top:-8px">(If you get this suspiciously fast: This uses .gs because I am too poor to have / maintain a server for two-messages-per-year, and if you are using<br>something like Privacy Badger, it probably messed with CORS and I did not get your message. Disable that extension, or try another channel.)</p>
-					</div>
-					
-					<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-  
-				</div>-->
-				
-		</div>
+						<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>
+						
+						<div class="field cs-button">
+							<button type="submit" value="Send" class="button">Send</button>
+						</div>
 
-		<footer>
-        	<div class="socbar-container">
-        		
-                <div class="socbar">
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/st.png"/></div>
-					<a href="https://steamcommunity.com/id/herkesemargarin/" target="_blank"><div><img class="soc top" src="assets/images/soc/st_g.png"/></div></a>
+						<div class="field cs-feedback">
+							<img class="cs-element" id="cs-load" src="images/icons/form-loader.gif"></img>
+							<p class="cs-element cs-text" id="cs-name">Please fill in your name.</p>
+							<p class="cs-element cs-text" id="cs-email">Please fill in your email.</p>
+							<p class="cs-element cs-text" id="cs-message">Please type in your message.</p>
+						</div>
 					</div>
-                
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/li.png"/></div>
-					<a href="https://www.linkedin.com/in/bledatunay/" target="_blank"><div><img class="soc top" src="assets/images/soc/li_g.png"/></div></a>
-					</div>
-                
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/lf.png"/></div>
-					<a href="https://www.last.fm/user/herkesemargarin/" target="_blank"><div><img class="soc top" src="assets/images/soc/lf_g.png"/></div></a>
-					</div> 
-                
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/fb.png"/></div>
-					<a href="https://www.facebook.com/benbleda" target="_blank"><div><img class="soc top" src="assets/images/soc/fb_g.png"/></div></a>
-					</div>  
-                
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/tw.png"/></div>
-					<a href="https://www.twitter.com/herkesemargarin" target="_blank"><div><img class="soc top" src="assets/images/soc/tw_g.png"/></div></a>
-					</div>
-                
-					<div class="socbut">
-					<div><img class="soc" src="assets/images/soc/yt.png"/></div>
-					<a href="https://www.youtube.com/herkesemargarin" target="_blank"><div><img class="soc top" src="assets/images/soc/yt_g.png"/></div></a>
+				</form>
+
+				<div style="display:none;" id="thankyou_message">
+					<p style="margin-top:8px"><b>Thanks for contacting. I will get back to you as soon as possible.</b><!--<br><br>(If you get this confirmation suspiciously fast: This form uses Google Scripts and script blockers such as "Privacy Badger" blocks the submission request. You can disable it and retry or use another channel.)(Warning: This form uses a Google Script, and your message may not be submitted if you are using a script blocker such as NoScript or Privacy Badger.)</p>-->
+				</div>
+
+				<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+			</div>
+			
+			<!-- Contact -->
+			<div class="element home clearfix col1-3 contact about skills">
+				<a href="#filter=.contact,+.contactform" class="mobToTop" href="#"><h2>Contact me</h2></a>
+
+				<p><a style="font-size:15px;" href="mailto:bledatunay@gmail.com?subject=Please fill the subject."><i class="fa fa-envelope"></i> bledatunay@gmail.com</a></p>
+				<p><a style="font-weight:normal;" href="mailto:bleda@alumni.bilkent.edu.tr?subject=Please fill the subject.">bleda@alumni.bilkent.edu.tr</a><br>
+				<a style="font-weight:normal;" href="mailto:bleda.tunay@metu.edu.tr?subject=Please fill the subject.">bleda.tunay@metu.edu.tr</a></p>
+
+				<p style="margin-top:6px;">You can get in touch with me by sending an email, using the <a href="#filter=.contact,+.contactform" class="mobToTop" href="#"><b>contact form</b></a> or via any of my online accounts below.<br><br>I usually respond in around 2 days.</p>
+				
+				<div class="soco">				
+					<div class="sobu"><div><img class="soim" src="images/so/li.png"/></div><a href="https://www.linkedin.com/in/bledatunay/" target="_blank"><div><img class="soim top" src="images/so/li_g.png"/></div></a></div>
+					
+					<div class="sobu"><div><img class="soim" src="images/so/st.png"/></div><a href="https://steamcommunity.com/id/herkesemargarin/" target="_blank"><div><img class="soim top" src="images/so/st_g.png"/></div></a></div>
+				
+					<div class="sobu"><div><img class="soim" src="images/so/lf.png"/></div><a href="https://www.last.fm/user/herkesemargarin/" target="_blank"><div><img class="soim top" src="images/so/lf_g.png"/></div></a></div> 
+				
+					<div class="sobu"><div><img class="soim" src="images/so/fb.png"/></div><a href="https://www.facebook.com/benbleda" target="_blank"><div><img class="soim top" src="images/so/fb_g.png"/></div></a></div>  
+				
+					<div class="sobu"><div><img class="soim" src="images/so/tw.png"/></div><a href="https://www.twitter.com/herkesemargarin" target="_blank"><div><img class="soim top" src="images/so/tw_g.png"/></div></a></div>
+				
+					<div class="sobu"><div><img class="soim" src="images/so/yt.png"/></div><a href="https://www.youtube.com/herkesemargarin" target="_blank"><div><img class="soim top" src="images/so/yt_g.png"/></div></a></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Games -->
+			<div class="element clearfix col2-3 home">
+				<div class="col1-3 connect">
+					<div class="images"><img src="images/games/games_collage.png" alt="" /></div>
+				</div>
+				<div class="col1-3 white-right2">
+					<h2>Games</h2>
+					<p class="blockquote">“Happy is the man who can make a living by his hobby.”<span style="color:#444;">– George Bernard Shaw</span></p><p>I believe this to be completely true. For that reason, I am working and want to keep working on making great games for the rest of my life.</p>
+					<ul class="falist fa-ul">
+						<li><a href="#filter=.games%3Anot(.sum_polybattle),+.det_polybattle"><i class="fa-li fa fa-angle-double-right"></i>Polybattle</a></li>
+						<li><a href="#filter=.games%3Anot(.sum_shootout),+.det_shootout"><i class="fa-li fa fa-angle-double-right"></i>Shoot Out!</a></li>
+						<li><a href="#filter=.games%3Anot(.sum_luca),+.det_luca"><i class="fa-li fa fa-angle-double-right"></i>Luca: The Dreamer</a></li>
+						<li><a href="#filter=.games%3Anot(.sum_baduka),+.det_baduka"><i class="fa-li fa fa-angle-double-right"></i>Baduka</a></li>
+					</ul>
+					<div class="more"><p><a href="#filter=.games" class="mobToTop" href="#">See all games <i class="fa fa-arrow-right"></i></a></p></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		
+		<!-- Game Details -->
+
+			<!-- Detail Polybattle -->
+			<div class="element clearfix col2-3 det det_polybattle">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/polybattle/polybattle_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_6.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_7.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/polybattle/polybattle_screenshot_8.png" alt="" /></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-                
-            </div>
-			
-            <div class="subtitle copyrightthing">
-				© 2021 Bleda Tünay.<br>
-				<!--<span title="Putting 'All rights reserved' at the bottom of your page is absolutely meaningless. On legal grounds, copyright is currently assumed to the authors unless explicitly declared otherwise, and no rights are granted unless explicitly declared. Thus, any work is 'All Rights Reserved' even if creator don't explicitly state it. Yeah. La-di-da.">Some rights are reserved, I guess.</span>-->
-				<div class="subsubtitle"><br><br>Best viewed in 1920x1080 with <span class="fab fa-firefox" aria-hidden="true"></span> / <span class="fab fa-chrome" aria-hidden="true"></span> - Optimized for mobile as best as I could, though no promises.
-				<br>Latest content update: 06/21 - Latest code update: 08/21</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Polybattle</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">First-Person Shooter</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">Roblox / PC, Xbox One, iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Game Design, UX Design, Balancing</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Links</span><br/>
+									<span class="projectoverview_value">
+										<a href="https://www.roblox.com/games/4716045691/" onclick="window.open(this.href, '_blank');return false;">Roblox Game Hub</a>
+									</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">MildMania</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Partner</span><br/>
+									<span class="projectoverview_value">Moonlight Interactive</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Gamefam</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">August 2020</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"Polybattle" is an FPS game for the Roblox platform, aiming to be the Roblox alternative of Battlefield with low-poly style.</p><p>Two teams compete against each other and try to control the majority of the objectives. The gameplay includes wide range of tactical vehicles, diverse classes and atmospheric maps. Not only skill, but strategy and teamwork can lead to victory. It has been one of the top FPS games in the Roblox since its inception.</p><p>I am working on the game both in terms of its UI/UX design and game design elements like new weapons, new vehicles and balancing.</p>
+				</div>
 			</div>
-		</footer>
+
+			<!-- Detail Lootland -->
+			<div class="element clearfix col2-3 det det_lootland">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/lootland/lootland_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/lootland/lootland_screenshot_1.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Lootland Royale</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">PvE Survival Shooter</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Game/Level/Mechanics/UX Design</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Links</span><br/>
+									<span class="projectoverview_value">
+										<a href="https://www.roblox.com/games/4738545896/" onclick="window.open(this.href, '_blank');return false;">Roblox Game Hub</a>
+									</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">MildMania</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Partner</span><br/>
+									<span class="projectoverview_value">Nitro Games</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Nitro Games</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">2022 (TBA)</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>Originated as a revival / rework of the "Lootland" game released by Nitro Games in 2020, "Lootland Royale" is a hybrid-casual shooter game with an emphasis on PvE multiplayer survival.</p><p>Players clear waves of enemies, while picking up a perks from the defeated monsters in order to be the last man standing. Most successful players of the session gets the best loot, and it allows the players to upgrade their preferred weapons and armor, which helps them to advance through the more and more challenging levels and a wide variety of different maps.</p><p>Lootland is currently in development and is targeted for release in 2022. Development of the game follows a collaboration between MildMania and Nitro Games, and it is being tested with live audiences during the development phase to ensure the best possible product-to-market fit.</p>
+				</div>
+			</div>
+
+			<!-- Detail Shootout -->
+			<div class="element clearfix col2-3 det det_shootout">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/shootout/shootout_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/shootout/shootout_screenshot_2.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Shoot Out!</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">First-Person Shooter</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">Roblox / PC, Xbox One, iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Live Ops, UX Design</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Links</span><br/>
+									<span class="projectoverview_value">
+										<a href="https://www.roblox.com/games/4738545896/" onclick="window.open(this.href, '_blank');return false;">Roblox Game Hub</a>
+									</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">MildMania</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Partner</span><br/>
+									<span class="projectoverview_value">Manic Studios</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Gamefam</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">February 2020</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"Shoot Out!" is a gun game focused FPS on the Roblox platform, where you try to get eliminations to get through a set of weapons on your way to a win.</p><p>Where it differs from other games on the platform, it's setting is the wild west, with a lot of very old / retro set of weapons that you get to use. You can play both in first person and third person. It also has mechanics like rolling to evade enemy fire, which adds a bit more strategy to the game and rewards dynamic movement.</p><p>It has been one of the most played gungame focused FPS’s in Roblox.</p>
+				</div>
+			</div>
+			
+			<!-- Detail Baduka -->
+			<div class="element clearfix col2-3 det det_baduka">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/baduka/baduka_screenshot_1.png" alt="" />
+								<li><img class="lazy" data-src="images/games/baduka/baduka_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/baduka/baduka_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/baduka/baduka_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/baduka/baduka_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/baduka/baduka_screenshot_6.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Baduka</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Casual Puzzle</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Mechanics Design, UI/UX Design</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">January 2019</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>Inspired by Japanese puzzle games like Sudoku, Kakuro and Hitori, the idea for Baduka is to leap over the numbers written on hexagonal cells, which are placed on a special multi-hexa shaped pattern, until you’ve managed to clear all patterns.</p><p>It’s easy to play, isn’t it? You don’t need to be a Sudoku master to solve these brain teaser pieces related to a special mathematical theory.</p><p>Just open the game, move the cells, figure out all the paths, get your extra points and claim the highest score like a real winner. That’s why this game is tailor made for whether you’d like to relax or keep your mind active by sparing some time for productive thinking.</p>
+				</div>
+			</div>
+
+			<!-- Detail Pliq -->
+			<div class="element clearfix col2-3 det det_pliq">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/pliq/pliq_screenshot_1.png" alt="" />
+								<li><img class="lazy" data-src="images/games/pliq/pliq_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pliq/pliq_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pliq/pliq_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pliq/pliq_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pliq/pliq_screenshot_6.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>pliq</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Casual Puzzle</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Mechanics Design, UI/UX Design</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">March 2019</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>Developed for iOS and Android, "pliq" is a casual puzzle game with a twist that will enhance your mind: you have to think backwards!</p><p>Create and match jelly blocks – but combine them by thinking backwards. Pliq plays like Tetris in reverse. Rather than maneuvering shapes to fill spaces in a wall, you’re replacing missing chunks of the wall before it reaches the bottom of the screen. You’ve got to suss out where the gaps are, then tap and swipe to quickly create shapes to fill the holes.</p>
+				</div>
+			</div>
+
+			<!-- Detail Luca -->
+			<div class="element clearfix col2-3 det det_luca">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/luca/luca_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_6.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_7.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/luca/luca_screenshot_8.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Luca: The Dreamer</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">2D Puzzle Platformer</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">Game/Level/Mechanics/UX Design</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">July 2018</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>“Luca: The Dreamer” is a challenging 2D puzzle platformer developed for Android and iOS, which follows the adventures of a football named Luca who wants to become a famous ball in the 2018 World Cup.</p><p>It had a very short development span of 4 months and a very intense development cycle of up to 60-hour workweeks. As a result, even though me and my co-workers tried our best, it came up a bit short. Still, final product was a very fun little game.</p><p>I was the project lead. I did all the game design, level design, mechanics design, development planning, UX design, and Unity implementation of all the assets.</p>
+				</div>
+			</div>
+
+			<!-- Detail Pou -->
+			<div class="element clearfix col2-3 det det_pou">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/pou/pou_screenshot_1.png" alt="" />
+								<li><img class="lazy" data-src="images/games/pou/pou_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pou/pou_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pou/pou_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/pou/pou_screenshot_5.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>POU:TFS</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Casual Clicker</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">UI/UX Support, Playtesting</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Creasaur Entertainment Co.</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">April 2018</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"Power of the Universe: The First Smash" or POU to be short, is a casual clicker game developed for Android and iOS, where earth is invaded by all kinds of wicked creatures and player needs to save the world by smashing them.<p>This project had a top-notch art style focus - a little too much for a casual game of this caliber, that other aspects of the game like gameplay and economy didn’t get enough attention and meet the expectations. Although I had some ideas about how to improve them, game was in very late into development in terms of mechanics when I arrived at the company that there was not much to be done.</p><p>Project was cancelled shortly after I left the company due to inconsistencies I have mentioned.</p>
+				</div>
+			</div>
+
+			<!-- Detail Next Please -->
+			<div class="element clearfix col2-3 det det_nextplease">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/nextplease/nextplease_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_6.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_7.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/nextplease/nextplease_screenshot_8.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Next, Please!</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Puzzle Simulation</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">PC, iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">UI/UX Design, Modelling, Texturing</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">May 2017</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"Next, Please!" is a gamified soft skill development tool for customer representative training purposes of several banks in Turkey.</p><p>It is a sales game where you should make sales to different customers with different personalities and profiles, which are designed acording to the 5-factor personality model of "OCEAN". Aim is for players to improve their skills in business life.</p><p>Next Please features entertaining surprise cards, combo opportunities to get more points with multiple selections, a system to bond with customers and options to elevate the mood of the customers.training</p>
+				</div>
+			</div>
+
+			<!-- Detail Telekom World -->
+			<div class="element clearfix col2-3 det det_ttworld">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/ttworld/ttworld_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_6.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_7.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/ttworld/ttworld_screenshot_8.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Telekom World</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Real-Time Strategy</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">PC</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">UI/UX Design, Texturing</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Completion Date</span><br/>
+									<span class="projectoverview_value">March 2017</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"Telekom World" is a city-building game for PC, aimed towards educating the personel of Türk Telekom - one of the biggest telecommunications provider of Turkey. Gameplay consists of players trying to mantain the telecommunication infrastructure of a city to satisfy more customers and make profit, while also being challenged by other companies.</p><p>Players advance their technology, increases their coverage area and maximize the quality of the services provided, while learning about how these technologies work and how quality of service can be increased in real life.</p>
+				</div>
+			</div>
+			
+			<!-- Detail IsVille -->
+			<div class="element clearfix col2-3 det det_isville">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/isville/isville_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/isville/isville_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/isville/isville_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/isville/isville_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/isville/isville_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/isville/isville_screenshot_6.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>İşVille</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">Puzzle Simulation</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">PC, iOS, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Responsibilities</span><br/>
+									<span class="projectoverview_value">UI/UX Design, Texturing</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Publisher</span><br/>
+									<span class="projectoverview_value">Pixofun</span>
+								</p>
+								<p style="margin-left: -30px;">
+									<span class="projectoverview_property">Release Date</span><br/>
+									<span class="projectoverview_value">Februray 2016</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>"İşVille" is a serious game we developed for Türkiye İş Bankası. Players are expected to develop their towns by performing the basic functions of banking i.e. collecting deposits and making loans, by answering the questions of the customers who come to their branches, by providing services to them and satisfy their needs.</p><p>Players can also create groups and collaborate with theirfriends in training. By controlling their budget and using their knowledge, they can grow both their bank and their town, and become a banking legend!</p>
+				</div>
+			</div>
+			
+			<!-- Detail Jo -->
+			<div class="element clearfix col2-3 det det_jo">
+				<div class="images">
+					<div class="flexslider">
+						<div class="images">
+							<ul class="slides">
+								<li><img src="images/games/jo/jo_screenshot_1.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_2.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_3.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_4.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_5.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_6.png" alt="" /></li>
+								<li><img class="lazy" data-src="images/games/jo/jo_screenshot_7.png" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="white-bottom">
+					<a href="#filter=.games">
+						<div class="icons2 close"></div>
+					</a>
+					<h2>Jö</h2>
+					<table class="game_table">
+						<tr>
+							<td class="noborder">
+								<p>
+									<span class="projectoverview_property">Genre</span><br/>
+									<span class="projectoverview_value">2D Puzzle Platformer</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Platform</span><br/>
+									<span class="projectoverview_value">PC, Android</span>
+								</p>
+								<p>
+									<span class="projectoverview_property">Completion Date</span><br/>
+									<span class="projectoverview_value">November 2015</span>
+								</p>
+							</td>
+							<td class="noborder">
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Developer</span><br/>
+									<span class="projectoverview_value">Indie Project</span>
+								</p>
+								<p style="margin-left:-30px;">
+									<span class="projectoverview_property">Worked On</span><br/>
+									<span class="projectoverview_value">Every Aspect Of It</span>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<hr />
+					<p>Started as a school project, "Jö" is my first fully-playable PC game with working mechanics, actual levels and a decent story, where you play as an entity named Jö, trying to discover the meaning of its existence and its connection with the concept of reality.</p><p>I did every aspect of it, and learned a lot while doing so. Although I'm not able to spare much time to develop it any further for a while now, I honestly think that it really contains some great ideas, and may have a potential. I really hope to complete it one day with substantial imporevements and release it as a free game. <p>Due to its relatively incomplete state and my faith in actually releasing it for free one day, I won't be able to provide a demo as of now.</p>
+				</div>
+			</div>
+
+		<!-- Games -->
+
+			<!-- Polybattle -->
+			<div class="element clearfix col1-3 games sum_polybattle">
+				<a href="#filter=.games%3Anot(.sum_polybattle),+.det_polybattle" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/polybattle/polybattle_thumb.png" alt="" />
+					</div>
+					<div class="white-bottom">
+						<h2>Polybattle</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">First-Person Shooter</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">August 2020</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Lootland -->
+			<div class="element clearfix col1-3 games sum_lootland">
+				<a href="#filter=.games%3Anot(.sum_lootland),+.det_lootland" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/lootland/lootland_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Lootland Royale</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">PvE Survival Shooter</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">2022 (TBA)</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Shootout -->
+			<div class="element clearfix col1-3 games sum_shootout">
+				<a href="#filter=.games%3Anot(.sum_shootout),+.det_shootout" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/shootout/shootout_thumb.png" alt="" />
+					</div>
+					<div class="white-bottom">
+						<h2>Shoot Out!</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">First-Person Shooter</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">September 2020</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Baduka -->
+			<div class="element clearfix col1-3 games sum_baduka">
+				<a href="#filter=.games%3Anot(.sum_baduka),+.det_baduka" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/baduka/baduka_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Baduka</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Casual Puzzle</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">January 2019</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Pliq -->
+			<div class="element clearfix col1-3 games sum_pliq">
+				<a href="#filter=.games%3Anot(.sum_pliq),+.det_pliq" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/pliq/pliq_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>pliq</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Casual Puzzle</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">March 2019</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Luca -->
+			<div class="element clearfix col1-3 games sum_luca">
+				<a href="#filter=.games%3Anot(.sum_luca),+.det_luca" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/luca/luca_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Luca: The Dreamer</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">2D Puzzle Platformer</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">July 2018</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+
+			<!-- POU -->
+			<div class="element clearfix col1-3 games sum_pou">
+				<a href="#filter=.games%3Anot(.sum_pou),+.det_pou" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/pou/pou_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>POU:TFS</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Casual Clicker</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">April 2018</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Next Please -->
+			<div class="element clearfix col1-3 games sum_nextplease">
+				<a href="#filter=.games%3Anot(.sum_nextplease),+.det_nextplease" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/nextplease/nextplease_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Next, Please!</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Puzzle Simulation</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">May 2017</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Telekom World -->
+			<div class="element clearfix col1-3 games sum_ttworld">
+				<a href="#filter=.games%3Anot(.sum_ttworld),+.det_ttworld" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/ttworld/ttworld_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Telekom World</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Real-Time Strategy</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">March 2017</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+
+			<!-- İsVille -->
+			<div class="element clearfix col1-3 games sum_isville">
+				<a href="#filter=.games%3Anot(.sum_isville),+.det_isville" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/isville/isville_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>İşVille</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">Strategy Management</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Release Date</span><br/>
+							<span class="projectoverview_value">April 2016</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+				
+			<!-- Jo -->
+			<div class="element clearfix col1-3 games sum_jo">
+				<a href="#filter=.games%3Anot(.sum_jo),+.det_jo" class="toTop" href="#">
+					<div class="images">
+						<img src="images/games/jo/jo_thumb.png" alt=""/>
+					</div>
+					<div class="white-bottom">
+						<h2>Jö</h2>
+						<p>
+							<span class="projectoverview_property">Genre</span><br/>
+							<span class="projectoverview_value">2D Puzzle Platformer</span>
+						</p>
+						<p>
+							<span class="projectoverview_property">Completion Date</span><br/>
+							<span class="projectoverview_value">November 2015</span>
+						</p>
+					</div>
+				</a>
+				<div class="clear"></div>
+			</div>
+			
+			<!-- MORE -->
+			<div class="element clearfix col1-3 games">
+					<div class="white-bottom">
+						<h2 style="padding-top:150px; border-bottom:0px;">MORE TO BE ADDED SOON...</h2>
+					</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+	<!-- End Body -->
+
+	<footer id="footer">
+		<div class="centered" style="margin-top:12px; background:#0b0d0f;">
+			<p>© 2021 ~ Bleda Tünay</p>
+			<p class="small">Best viewed in 1920x1080 with <span class="fab fa-firefox" aria-hidden="true"></span> / <span class="fab fa-chrome" aria-hidden="true"></span> - Optimized for mobile as best as I could, no promises though.<br>Latest content update: 12/21 - Latest code update: 12/21</p><br><br>
+		</div>
+	</footer>
 	</div>
 
-	<script type='text/javascript' src='assets/js/jquery.appear.js'></script>
-	<script type='text/javascript' src='assets/js/jquery.fitvids.js'></script>
-	<script type='text/javascript' src='assets/js/modernizr.js'></script>
-	<script type='text/javascript' src='assets/js/bootstrap.js'></script>
-	<script type='text/javascript' src='assets/js/nav.custom.js'></script>
-	<script type='text/javascript' src='assets/js/insite.custom.js'></script>
-	<script type='text/javascript' src='assets/js/custom.js'></script>
-	
-		
-	<!--<div style="position: fixed; bottom:8px; right:8px; width:64px; height:64px;">
-		<span title="In memory of Kobe Bryant... 1978-2020"><img style="width:64px; height:64px;" src="assets/images/kobe.jpg"/></span>
-	</div>-->
+	<!-- Back to top button -->
+	<div id="backtotop">
+		<ul>
+			<li><a class="toTop" href="#" onClick="return false">Back to Top</a></li>
+		</ul>
+	</div>
 
 </body>
-
 </html>
