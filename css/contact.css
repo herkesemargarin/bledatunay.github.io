@@ -3,7 +3,7 @@
 /* Form style */
 
 #contact label { display: none; float: none; height:0px; }
-input, textarea, select { padding:6px 4px 4px 6px; width:210px; height:18px; font-family:'Roboto', sans-serif; font-size:15px; color:#333; border:1px solid #ccc;  -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
+input, textarea, select { padding:6px 4px 4px 6px; width:210px; height:18px; font-family:'Roboto', sans-serif; font-size:15px; border:1px solid #555;  -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
 #contact textarea { margin-bottom:0px; margin-right:0px !important; }
 input:focus, textarea:focus, select:focus {  }
 input.submit { display:inline-block; position:absolute; width:auto; bottom:40px; right:0px; border:0px; padding:0px; color:#8d8d8d; font-size:12px; background:none; cursor:pointer}

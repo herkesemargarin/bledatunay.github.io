@@ -80,7 +80,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
 	document.getElementById("cs-name").style.display = "block";
 	document.getElementById("cs-message").style.display = "none";
     return false;
-  } else if( document.getElementById("message").value.length < 5 ) {   // if message is empty show error
+  } else if( document.getElementById("message").value.length < 10 ) {   // if message is empty show error
     document.getElementById("cs-email").style.display = "none";
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "block";
@@ -91,6 +91,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "none";
 	document.getElementById("cs-load").style.display = "block";
+	document.getElementById("cs-button-but").disabled = true;
 	  
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();

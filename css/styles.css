@@ -306,8 +306,10 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .top:hover{opacity: 0;}
 
 .field {float:left; width:240px; height:30px; padding-bottom:10px;}
-.button {width:150px; height:40px; font-size: 18px; border: none; font-family: inherit; background:#fff; border: 1px solid #333; cursor: pointer; position: relative; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;}
+.button {width:150px; height:40px; font-size: 18px; font-family: inherit; background:#fff; border: 1px solid #333; cursor: pointer; position: relative; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;}
 .button:hover {background:#ddd;}
+.button.disabled, button[disabled] {opacity:0.4;}
+
 
 .cs-element {position:absolute; display:none;}
 .cs-button {padding-bottom:20px; width:160px;}
