@@ -118,6 +118,45 @@
 	<div class="container">
 		<div id="container" class="clearfix">
 
+		<!-- Contact Form -->
+			<div class="element clearfix col2-3 contactform">
+				<h2>Submit a Message</h2>
+				<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxCG1sQNguPvG3m01JTyL9KICG9RHMpKaVCLQpmQ1wEWGocCnk/exec" novalidate>
+					<div style="padding:20px 40px 20px 40px; overflow:auto;">
+						<div class="field">
+							<span><input type="text" name="name" value="" size="40" id="name" aria-required="true" aria-invalid="false" placeholder="Your name" /></span>
+						</div>
+						
+						<div class="field">
+							<span><input type="email" name="email" value="" size="40" id="email" aria-required="true" aria-invalid="false" placeholder="Your email" /></span>
+						</div>
+						
+						<div class="field" style="width:100%; height:170px; min-width:210px;">
+							<span><textarea name="message" style="resize:none; width:90%; min-width:210px; height:150px; line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Your message - Please fill all the areas and provide a valid email adress so that I can get back to you." aria-invalid="false"></textarea></span>
+						</div>
+						
+						<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>
+						
+						<div class="field cs-button">
+							<button id="cs-button-but" type="submit" value="Send" class="button">Send</button>
+						</div>
+
+						<div class="field cs-feedback">
+							<img class="cs-element" id="cs-load" src="images/icons/form-loader.gif"></img>
+							<p class="cs-element cs-text" id="cs-name">Please fill in your name.</p>
+							<p class="cs-element cs-text" id="cs-email">Please fill in your email.</p>
+							<p class="cs-element cs-text" id="cs-message">Please type in your message.</p>
+						</div>
+					</div>
+				</form>
+
+				<div style="display:none;" id="thankyou_message">
+					<p style="margin-top:8px"><b>Thanks for contacting.</b><br><br>I will get back to you as soon as possible.<!--<br><br>(If you get this confirmation suspiciously fast: This form uses Google Scripts and script blockers such as "Privacy Badger" blocks the submission request. You can disable it and retry or use another channel.)(Warning: This form uses a Google Script, and your message may not be submitted if you are using a script blocker such as NoScript or Privacy Badger.)</p>-->
+				</div>
+
+				<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+			</div>
+
 		<!-- Details -->
 
 			<!-- Detail Education -->
@@ -840,46 +879,6 @@
 				<div class="clear"></div>
 			</div>
 
-			<!-- Contact Form -->
-			<div class="element clearfix col2-3 contactform">
-				<h2>Submit a Message</h2>
-				<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxCG1sQNguPvG3m01JTyL9KICG9RHMpKaVCLQpmQ1wEWGocCnk/exec" novalidate>
-					<div style="padding:20px 40px 20px 40px; overflow:auto;">
-						<div class="field">
-							<span><input type="text" name="name" value="" size="40" id="name" aria-required="true" aria-invalid="false" placeholder="Your name" /></span>
-						</div>
-						
-						<div class="field">
-							<span><input type="email" name="email" value="" size="40" id="email" aria-required="true" aria-invalid="false" placeholder="Your email" /></span>
-						</div>
-						
-						<div class="field" style="width:100%; height:170px; min-width:210px;">
-							<span><textarea name="message" style="resize:none; width:90%; min-width:210px; height:150px; line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Your message - Please fill all the areas and provide a valid email adress so that I can get back to you." aria-invalid="false"></textarea></span>
-						</div>
-						
-						<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>
-						
-						<div class="field cs-button">
-							<button id="cs-button-but" type="submit" value="Send" class="button">Send</button>
-						</div>
-
-						<div class="field cs-feedback">
-							<img class="cs-element" id="cs-load" src="images/icons/form-loader.gif"></img>
-							<p class="cs-element cs-text" id="cs-name">Please fill in your name.</p>
-							<p class="cs-element cs-text" id="cs-email">Please fill in your email.</p>
-							<p class="cs-element cs-text" id="cs-message">Please type in your message.</p>
-						</div>
-					</div>
-				</form>
-
-				<div style="display:none;" id="thankyou_message">
-					<p style="margin-top:8px"><b>Thanks for contacting.</b><br><br>I will get back to you as soon as possible.<!--<br><br>(If you get this confirmation suspiciously fast: This form uses Google Scripts and script blockers such as "Privacy Badger" blocks the submission request. You can disable it and retry or use another channel.)(Warning: This form uses a Google Script, and your message may not be submitted if you are using a script blocker such as NoScript or Privacy Badger.)</p>-->
-				</div>
-
-				<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-			</div>
-			
-			
 			<!-- Home 2x1 -->
 			<div class="element clearfix col2-3 home">
 				<div class="col1-3 connect">
