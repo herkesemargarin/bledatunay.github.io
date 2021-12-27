@@ -9,8 +9,7 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
- 
-/* Browser Resets */
+ /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -46,7 +45,6 @@ html[xmlns] .slides {display: block;}
 
 .carousel li {margin-right: 5px}
 
-
 /* Direction Nav */
 .flex-direction-nav {*height: 0; z-index:20;}
 .flex-direction-nav a { margin: 0px 0 0; z-index:20; display: block; position: absolute; top: 50%; margin-top:-22px; cursor: pointer; text-indent: -9999px; display:inline-block; width:30px; height:44px; border:1px solid #fff; opacity: 0; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s;}
@@ -55,10 +53,6 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-prev {background:url(../images/icons/bg-prev.png) center no-repeat; background-size:15px 22px; left: 33px; border: 0; }
 
 /*.flex-direction-nav a { margin: 0px 0 0; z-index:20; display: block; position: absolute; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; display:inline-block; width:80px; height:100%; background:#ffffff40; top:0px; }
-
-.flex-direction-nav .flex-next {right: 0px;}
-.flex-direction-nav .flex-prev {left: 0px;}*/
-
 
 .flexslider:hover .flex-next {opacity: 1;}
 .flexslider:hover .flex-prev {opacity: 1;}
@@ -76,7 +70,3 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
-
-
-/*.flex-direction-nav .flex-prev {opacity: 1; left: 0;}
-  .flex-direction-nav .flex-next {opacity: 1; right: 0;}*/
