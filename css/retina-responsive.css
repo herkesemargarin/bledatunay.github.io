@@ -77,7 +77,7 @@ ul#filters { background:#11191f; margin:0 10px; width:300px;}
 
 .cs-element {padding:0; width:100px;}
 .cs-feedback {width:100px;}
-.cs-text {padding:0;}
+.cs-text {padding:0; margin-top:-2px;}
 .cs-button {width:120px;}
 .button {width:110px;}
 

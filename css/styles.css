@@ -79,7 +79,7 @@ strong { font-weight:bold; }
 a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 p { line-height:1.4; font-style:normal; padding:14px 40px 0 40px; }
 p.small {font-size:12px;}
-p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight:bold; padding:14px 40px 2px 40px; clear:both }
+p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight:bold; padding:14px 40px 6px 40px; clear:both }
 .blockquote span {font: 11px Lato, 'Roboto', sans-serif; color:#8d8d8d; padding-top:5px; text-transform:uppercase; display:block; letter-spacing:1px; }
 a {text-decoration:none; color:#333; font-weight:bold;}
 a:hover { text-decoration:none; color:#555; }
@@ -95,7 +95,7 @@ h1#logo a { display:block; background:url(../images/icons/bg-logo.png) no-repeat
 h2, h3, h4 { line-height:1.3; font-family:'Roboto', sans-serif; }
 h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 40px 5px 40px; padding-bottom:18px; padding-top:28px; text-transform:uppercase; border-bottom:1px solid #555; display:block; text-decoration:none;}
 h3, h4 {font-size:19px; font-weight:700; padding:14px 40px 0 40px; margin-bottom:-6px; }
-h3 {padding-top:24px;}
+h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 /* End Headings
 --------------------------------------------------------------------------------------------------------*/
 
@@ -138,8 +138,6 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 .white-bottom {background:#fff; position:relative; height:230px; }
 .white-bottom2 {background:#fff; position:relative; height:342px; }
 .white-bottom3 {background:#fff; position:relative; height:1008px; }
-
-.more {position:absolute; bottom:25px;}
 
 .det .white-bottom {height:auto; padding-bottom:40px; }
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
@@ -202,7 +200,7 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
 ul.list { position:relative; font-style:italic; padding:14px 40px 0 40px; }
-ul.falist { position:relative; font-style:italic; padding:12px 40px 0 40px; line-height:125%;}
+ul.falist { position:relative; font-style:italic; padding:12px 40px 0 26px; line-height:125%;}
 ul.list li { line-height:1.5; width:auto; padding-left:20px; background:url(../images/icons/bg-bullet.png) no-repeat 5px 8px; background-size:6px 6px; }
 ul.check li { background:url(../images/icons/bg-check.png) no-repeat 1px 13px; background-size:13px 11px; }
 /* =End Lists
@@ -263,15 +261,15 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 /* =Skill Containers
 --------------------------------------------------------------------------------------------------------*/
 
-.skills_container {position: absolute; left: 0; right: 0; margin: auto; margin-top:8px; width:210px; height:140px; padding:0;}
-.skills_list {margin-top:156px;}
-.skills_list_sum {padding:0 20px 10px 0; font-weight:bold;}
+.skills_container {position: absolute; left: 0; right: 0; margin: auto; margin-top:8px; width:216px; height:144px; padding:0;}
+.skills_list {margin-top:158px;}
+.skills_list_sum {padding:0 30px 10px 0; font-weight:bold;}
+.skills_container img {float:left; width: 62px; height:62px; margin:5px;}
 
 .skills_container_iconsonly {width:86%; overflow:auto; left: 0; right: 0; margin: auto;}
 .skills_container_iconsonly img {width:56px; height:56px; float:left; padding:0 4px 0 4px; margin-bottom:8px;}
 
 .skill_container {width:86%; height:44px; margin-left:auto; margin-right:auto;}
-.skill_container_img {float:left; width: 62px; height:62px; margin:4px;}
 .skill_title {font-size:15px; font-weight:bold; margin-bottom:10px;}
 
 .design_info {font-weight:normal;}
@@ -286,7 +284,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .pbar-logo {width:40px; height:40px; float:left; padding-right:10px;}
 .pbar-logo img {height:40px;margin-top:0px; margin-left:auto; margin-right:auto;}
 
-.basic_info_title {font-size:14px; font-weight:normal; padding-top:10px;}
+.basic_info_title {font-size:14px; font-weight:normal; padding-top:8px;}
 .basic_info_text {font-size:15px; font-weight:bold; padding-top:4px;}
 
 .experience_info_title {font-size:14px; font-weight:normal;}
@@ -315,13 +313,20 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .top:hover{opacity: 0;}
 
 .field {float:left; width:240px; height:30px; padding-bottom:10px;}
-.button {width:150px; height:40px; font-size: 18px; font-family: inherit; background:#fff; border: 1px solid #2b2b2b; cursor: pointer; position: relative; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;}
+.button {width:150px; height:34px; font-size: 18px; font-family: inherit; background:#fff; border: 1px solid #2b2b2b; cursor: pointer; position: relative; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;}
+.button i {padding-left:8px;}
 .button:hover {background:#2b2b2b; color:#fff;}
 .button.disabled, button[disabled] {opacity:0.4;}
 .button.disabled, button[disabled]:hover {background:#fff; color:#666;}
 
+.more {position:absolute; bottom:25px; width:300px;}
+.more button {margin-left:40px; width:150px; height:34px; font-size:15px;}
+
+.title_button {position:absolute; top:27px; right:40px;}
+.title_button button {width: 34px; height:34px;}
+.title_button i {margin-top:2px; padding-left:0px;}
 
 .cs-element {position:absolute; display:none;}
-.cs-button {padding-bottom:20px; width:160px;}
-.cs-text {padding:11px 0 0 5px;}
-#cs-load {height:40px; width:40px;}
+.cs-button {padding-bottom:20px; height:34px; width:160px;}
+.cs-text {padding:7px 0 0 5px;}
+#cs-load {height:40px; width:40px; margin-top:-3px;}
