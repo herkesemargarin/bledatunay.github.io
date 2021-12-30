@@ -91,7 +91,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "none";
 	document.getElementById("cs-load").style.display = "block";
-	document.getElementById("cs-button-but").disabled = true;
+	document.getElementById("cs-button-submit").disabled = true;
 	  
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
