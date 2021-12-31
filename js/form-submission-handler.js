@@ -87,17 +87,31 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     return false;
   } else {
 	
+	console.log("Passed: " + "1");
+	
 	document.getElementById("cs-email").style.display = "none";
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "none";
 	document.getElementById("cs-load").style.display = "block";
 	document.getElementById("cs-button-submit").disabled = true;
+	
+	console.log("Passed: " + "2");
+
 	  
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
+	
+	console.log("Passed: " + "3");
+	
     xhr.open('POST', url);
     xhr.withCredentials = false;
+	
+	console.log("Passed: " + "4");
+	
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	
+	console.log("Passed: " + "5");
+	
     xhr.onreadystatechange = function() {
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
@@ -105,11 +119,16 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
         document.getElementById("thankyou_message").style.display = "block";
         return;
     };
+	
+	console.log("Passed: " + "6");
+	
     // url encode form data for sending as post data
     var encoded = Object.keys(data).map(function(k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k])
     }).join('&')
     xhr.send(encoded);
+	
+	console.log("Passed: " + "7");
   }
 }
 function loaded() {
