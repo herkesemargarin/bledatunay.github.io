@@ -101,8 +101,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     xhr.onreadystatechange = function() {
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
-        document.getElementById("gform").style.display = "none"; // hide form
-        document.getElementById("thankyou_message").style.display = "block";
+        
         return;
     };
     // url encode form data for sending as post data
@@ -110,7 +109,17 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
         return encodeURIComponent(k) + "=" + encodeURIComponent(data[k])
     }).join('&')
     xhr.send(encoded);
-	xhr.onerror = function() { console.log("Error occurred but I dunno what exactly.")}
+	xhr.onerror = function() {
+		console.log("Error occurred but I dunno what exactly.")
+		document.getElementById("cs-email").style.display = "block";
+		document.getElementById("cs-name").style.display = "block";
+		document.getElementById("cs-message").style.display = "block";
+		document.getElementById("cs-load").style.display = "block";
+		document.getElementById("cs-button-submit").disabled = false;
+	} else {
+		document.getElementById("gform").style.display = "none"; // hide form
+        document.getElementById("thankyou_message").style.display = "block";
+	};
   }
 }
 function loaded() {
