@@ -76,7 +76,7 @@ h4.about_par_text {padding:3px 40px 0px 40px;  font-size:16px;}
 html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
 body { font: 14px 'Roboto', sans-serif; color:#444; background:#0c141a; }
 strong { font-weight:bold; }
-a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+a, a > * {-webkit-transition: color 0.2s; -moz-transition: color 0.2s; -o-transition: color 0.2s; transition: color 0.2s;}
 p { line-height:1.4; font-style:normal; padding:14px 40px 0 40px; }
 p.small {font-size:12px;}
 p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight:bold; padding:14px 40px 6px 40px; clear:both }
@@ -90,8 +90,8 @@ span.arrow {font:13px 'Roboto', sans-serif; }
 
 /* =Headings
 --------------------------------------------------------------------------------------------------------*/
-h1#logo { position:relative; float:left; margin-top:30px; margin-left:10px; margin-bottom:30px; width:200px; height:45px; z-index:1 }
-h1#logo a { display:block; background:url(../images/icons/bg-logo.png) no-repeat; background-size:200px 45px; width:200px; height:45px; text-indent:-9999px; }
+h1#logo { position:relative; float:left; margin-top:30px; margin-left:10px; margin-bottom:30px; width:180px; height:45px; z-index:1 }
+h1#logo a { display:block; background:url(../images/icons/bg-logo.png) no-repeat; background-size:180px 45px; width:180px; height:45px; text-indent:-9999px; }
 h2, h3, h4 { line-height:1.3; font-family:'Roboto', sans-serif; }
 h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 40px 5px 40px; padding-bottom:18px; padding-top:28px; text-transform:uppercase; border-bottom:1px solid #555; display:block; text-decoration:none;}
 h3, h4 {font-size:19px; font-weight:700; padding:14px 40px 0 40px; margin-bottom:-6px; }
@@ -239,11 +239,10 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 /* disable CSS transitions for containers with infinite scrolling*/
 .isotope.infinite-scrolling { -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
 
-
 #options { width:auto; height:100px; z-index:300; text-align:center;}
-#options ul { margin: 0; list-style: none; display:inline-block; padding-top:36px; float:right; margin-right:-7px; }
+#options ul { margin: 0; list-style: none; display:inline-block; padding-top:38px; float:right; }
 #options li { float: left;  }
-#options li a { color:#777; font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; font-size:20px; font-weight:normal; text-decoration:none; text-transform:uppercase; letter-spacing: 1px; display:inline-block; padding:5px 17px;  margin:0px; }
+#options li a { color:#777; font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; font-size:20px; font-weight:normal; text-decoration:none; text-transform:uppercase; letter-spacing: 1px; display:inline-block; padding:5px 16px;  margin:0px;}
 #options li a:hover, #options li a.selected { color:#fff;}
 /* End Isotope
 --------------------------------------------------------------------------------------------------------*/
