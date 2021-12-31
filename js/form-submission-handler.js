@@ -74,22 +74,26 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     document.getElementById("cs-email").style.display = "block";
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "none";
+	document.getElementById("cs-error").style.display = "none";
     return false;
   } else if( document.getElementById("name").value.length < 2 ) {   // if name is empty show error
     document.getElementById("cs-email").style.display = "none";
 	document.getElementById("cs-name").style.display = "block";
 	document.getElementById("cs-message").style.display = "none";
+	document.getElementById("cs-error").style.display = "none";
     return false;
   } else if( document.getElementById("message").value.length < 10 ) {   // if message is empty show error
     document.getElementById("cs-email").style.display = "none";
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "block";
+	document.getElementById("cs-error").style.display = "none";
     return false;
   } else {
 	
 	document.getElementById("cs-email").style.display = "none";
 	document.getElementById("cs-name").style.display = "none";
 	document.getElementById("cs-message").style.display = "none";
+	document.getElementById("cs-error").style.display = "none";
 	document.getElementById("cs-load").style.display = "block";
 	document.getElementById("cs-button-submit").disabled = true;
 	  
@@ -111,11 +115,14 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     }).join('&')
     xhr.send(encoded);
 	xhr.onerror = function() {
-		console.log("Error occurred but I dunno what exactly.")
-		document.getElementById("cs-email").style.display = "block";
-		document.getElementById("cs-name").style.display = "block";
-		document.getElementById("cs-message").style.display = "block";
-		document.getElementById("cs-load").style.display = "block";
+		console.log("An error occurred - probably a JavaScript blocker.")
+		document.getElementById("gform").style.display = "block";
+        document.getElementById("thankyou_message").style.display = "none";
+		document.getElementById("cs-email").style.display = "none";
+		document.getElementById("cs-name").style.display = "none";
+		document.getElementById("cs-message").style.display = "none";
+		document.getElementById("cs-load").style.display = "none";
+		document.getElementById("cs-error").style.display = "block";
 		document.getElementById("cs-button-submit").disabled = false;
 	}
   }
