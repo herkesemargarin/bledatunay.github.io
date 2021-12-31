@@ -33,7 +33,7 @@ hr {background-color: #000; border: none; color: #000; height: 1px; margin-top:2
 --------------------------------------------------------------------------------------------------------*/
 
 .about_edu_container {height:130px; width:300px; float:left; padding-right:100px;}
-.about_edu_logo {height:100px; width:100px; padding:20px 0 0 30px; float: left; text-align:right}
+.about_edu_logo {height:100px; width:100px; padding:20px 0 0 40px; float: left; text-align:right}
 .about_edu_logo img {width:100px;}
 .about_edu_date {color: #4970a0; font-size: 12px; font-weight:bold; margin-top: 6px;}
 .about_edu_courses {float:left; width:280px; height:380px; }
