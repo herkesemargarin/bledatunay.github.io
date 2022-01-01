@@ -139,7 +139,7 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 .det .white-bottom {height:auto; padding-bottom:40px; }
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
 .break { height:20px; position:relative; }
-.images { display:block; position:relative; background-color:#444;}
+.images { display:block; position:relative;}
 .overflow {overflow:hidden; }
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
