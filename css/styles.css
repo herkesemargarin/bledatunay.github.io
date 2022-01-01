@@ -128,9 +128,6 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 .col3-1 { width:940px; margin:10px; height:1220px; float:left; background:white;}
 .element .col3-1 {width:900px; height:1220px; margin:0; float:left; }
 
-/*.white-right:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0); position:absolute; margin-top:40px; left:618px; border-left-style:inset; }
-.white-right2:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0); position:absolute; margin-top:40px; left:298px; border-left-style:inset; }
-.white-bottom:before, .white-bottom2:before {content:''; height:0; width:0; border-width:12px 12px 12px 12px; border-style:solid; border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); position:absolute; top:-23px; margin-left:40px; border-top-style:inset; }*/
 a:visited .white-bottom:before, a:visited .white-bottom2:before { border-color: transparent transparent rgba(255,255,255,1) transparent !important; }
 a:visited .white-right:before, a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) transparent transparent !important; }
 .white-right, .white-right2 {background:#fff; }
@@ -144,7 +141,6 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 .break { height:20px; position:relative; }
 .images { display:block; position:relative; }
 .overflow {overflow:hidden; }
-.portrait_orientation img {height:534px;}
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
 
