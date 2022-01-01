@@ -292,6 +292,11 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .lookingforwork {background:#a0ffa0; box-shadow: inset 0px 0px 0px 5px green; -webkit-box-shadow: inset 0px 0px 0px 5px green; -moz-box-shadow: inset 0px 0px 0px 5px green;}
 .lookingforwork:hover {box-shadow: inset 0px 0px 0px 5px white;}
 
+.blog_date {font-size:12px; font-weight:bold; padding-top:10px;}
+.blog_summary {font-size:14px; font-weight:normal; padding-top:12px;}
+.blog_info {width:100%; display:table;}
+.blog_info p {float:left; width:120px; padding-right:20px;}
+
 .game_table {width:100%;}
 .game_table td {width:50%;}
 .game_table p {padding:14px 20px 0 40px;}
