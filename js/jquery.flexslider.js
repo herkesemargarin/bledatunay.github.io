@@ -1209,44 +1209,12 @@
 
     // Callback API
     start: function(){},           //Callback: function(slider) - Fires when the slider loads the first slide
-    before: function(slider){           //Callback: function(slider) - Fires asynchronously with each slider animation
-		var slides     = slider.slides,
-          index      = slider.animatingTo,
-          $slide     = $(slides[index]),
-          $img       = $slide.find('img[data-src]'),
-          current    = index + 1,
-          next_slide  = current + 1,
-          prev_slide = current - 1;
-
-      $slide
-        .parent()
-        .find('img.lazy:eq(' + current + '), img.lazy:eq(' + prev_slide + '), img.lazy:eq(' + next_slide + ')')
-        .each(function() {
-          var src = $(this).attr('data-src');
-          $(this).attr('src', src).removeAttr('data-src');
-        });		
-	},
+    before: function(slider){},           //Callback: function(slider) - Fires asynchronously with each slider animation	
     after: function(){},            //Callback: function(slider) - Fires after each slider animation completes
     end: function(){},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
     added: function(){},            //{NEW} Callback: function(slider) - Fires after a slide is added
     removed: function(){},           //{NEW} Callback: function(slider) - Fires after a slide is removed
-    init: function(slider) {             //{NEW} Callback: function(slider) - Fires after the slider is initially setup
-		var slides     = slider.slides,
-          index      = slider.animatingTo,
-          $slide     = $(slides[index]),
-          $img       = $slide.find('img[data-src]'),
-          current    = index + 1,
-          next_slide  = current + 1,
-          prev_slide = current - 1;
-
-      $slide
-        .parent()
-        .find('img.lazy:eq(' + current + '), img.lazy:eq(' + prev_slide + '), img.lazy:eq(' + next_slide + ')')
-        .each(function() {
-          var src = $(this).attr('data-src');
-          $(this).attr('src', src).removeAttr('data-src');
-        });	
-	},
+    init: function() {},             //{NEW} Callback: function(slider) - Fires after the slider is initially setup	
 	rtl: false             //{NEW} Boolean: Whether or not to enable RTL mode
   };
 
