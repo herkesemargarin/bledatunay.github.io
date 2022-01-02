@@ -32,7 +32,7 @@ hr {background-color: #000; border: none; color: #000; height: 1px; margin-top:2
 /* =Education
 --------------------------------------------------------------------------------------------------------*/
 
-.about_edu_container {height:130px; width:300px; float:left; padding-right:100px;}
+.about_container {height:130px; width:300px; float:left;}
 .about_edu_logo {height:100px; width:100px; padding:20px 0 0 40px; float: left; text-align:right}
 .about_edu_logo img {width:100px;}
 .about_edu_date {color: #4970a0; font-size: 12px; font-weight:bold; margin-top: 6px;}
@@ -52,7 +52,6 @@ h4.about_par_text {padding:3px 40px 0px 40px;  font-size:16px;}
 /* =Experience
 --------------------------------------------------------------------------------------------------------*/
 
-.about_exp_container {height:130px; width:400px; float:left; margin-left:-10px;}
 .about_exp_logo {height:130px; width:180px; float: left; text-align:right}
 .about_exp_logo img {width:138px; margin-top:25px;}
 .about_exp_date {color: #4970a0; font-size: 12px; font-weight:bold; margin-top: 5px;}
