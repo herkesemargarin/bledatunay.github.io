@@ -1,6 +1,6 @@
 jQuery(function() {
 	jQuery(window).scroll(function() {
-		if(jQuery(this).scrollTop() != 0) {
+		if(jQuery(this).scrollTop() > 120) {
 			jQuery('#toTop, #backtotop').fadeIn();	
 		} else {
 			jQuery('#toTop, #backtotop').fadeOut();
