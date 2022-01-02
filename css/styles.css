@@ -84,6 +84,7 @@ p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight
 a {text-decoration:none; color:#333; font-weight:bold;}
 a:hover { text-decoration:none; color:#555; }
 span.arrow {font:13px 'Roboto', sans-serif; }
+input, textarea, select { padding:6px 4px 4px 6px; width:210px; height:18px; font-family:'Roboto', sans-serif; font-size:15px; border:1px solid #2b2b2b;  -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
 
@@ -143,16 +144,6 @@ a:visited .white-right:before, a:visited .white-right2:before { border-color:tra
 .overflow {overflow:hidden; }
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
-
-
-/* =Googlemaps
---------------------------------------------------------------------------------------------------------*/
-#map {width:620px; height:620px; margin:0; border:0}
-#map:before, #map:after {background: none; content: ''; left: 0;	position: absolute;	top: 0;	width: 100%; }
-#map:after {bottom: 0; top: auto; }
-/* End Googlemaps
---------------------------------------------------------------------------------------------------------*/
-
 
 /* =Image Hover
 --------------------------------------------------------------------------------------------------------*/
