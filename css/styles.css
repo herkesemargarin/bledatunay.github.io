@@ -105,17 +105,6 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 #wrapper { margin-top:0px; width:100%; background:#11191f; position:relative; z-index:29; margin:0 auto; margin-bottom:20px; }
 .container { padding:0px; width:960px; position:relative; margin:0 auto;}
 
-.portrait_3 { width:940px; margin:10px; height:auto; float:left; background:white; }
-.portrait_3_L1 {width:300px;height:534px; float:left; background:white;}
-.portrait_3_R2 {width:640px;height:534px; float:left; background:white;}
-
-@media only screen and (max-width: 767px) {
-.portrait_3 {width:300px; height:auto;}
-.portrait_3_L1 {height:auto; width:300px; margin:0; float:none;}
-.portrait_3_R2 {height:auto; width:300px; margin:0; float:none;}
-
-}
-
 .col1-1 { width:940px; margin:10px; height:400px; float:left; background:white; }
 .col1-3 { width:300px; height:400px; margin:10px; float:left; background:white;}
 .element .col1-3 {width:300px; height:400px; margin:0; float:left; }
@@ -125,18 +114,9 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 .element .col2-3 {width:640px; height:400px; margin:0; }
 .col2-3.det, .col2-3.auto, .col1-3.auto, .col1-1.auto {height:auto; }
 
-.col3-1 { width:940px; margin:10px; height:1220px; float:left; background:white;}
-.element .col3-1 {width:900px; height:1220px; margin:0; float:left; }
+.col-text {background:#fff; position:relative; }
 
-a:visited .white-bottom:before, a:visited .white-bottom2:before { border-color: transparent transparent rgba(255,255,255,1) transparent !important; }
-a:visited .white-right:before, a:visited .white-right2:before { border-color:transparent rgba(255,255,255,1) transparent transparent !important; }
-.white-right, .white-right2 {background:#fff; }
-
-.white-bottom {background:#fff; position:relative; height:230px; }
-.white-bottom2 {background:#fff; position:relative; height:342px; }
-.white-bottom3 {background:#fff; position:relative; height:1008px; }
-
-.det .white-bottom {height:auto; padding-bottom:40px; }
+.det .col-text {height:auto; padding-bottom:40px; }
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
 .break { height:20px; position:relative; }
 .images { display:block; position:relative; width:auto;}
