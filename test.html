@@ -79,7 +79,7 @@
 		<!-- Contact Form -->
 		<div class="element clearfix col2-3 contactform">
 			<h2>Submit a Message</h2>
-			<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbxCG1sQNguPvG3m01JTyL9KICG9RHMpKaVCLQpmQ1wEWGocCnk/exec" novalidate>
+			<form method="post" id="gform" action="https://script.google.com/macros/s/AKfycbzw_PScX_C62Egf6oWZSUwys9axFw7SDfPfzdY7/exec" novalidate>
 				<div style="padding:18px 40px 20px 40px; overflow:auto;">
 					<div class="field">
 						<span><input type="text" name="name" value="" size="40" id="name" aria-required="true" aria-invalid="false" placeholder="Your name" /></span>
@@ -92,10 +92,7 @@
 					<div class="field" style="width:100%; height:178px; min-width:210px; padding-top:6px;">
 						<span><textarea name="message" style="resize:none; width:97%; min-width:210px; height:158px; line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Your message - Please fill all the areas and provide a valid email address so that I can get back to you." aria-invalid="false"></textarea></span>
 					</div>
-						
-					<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-					<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>
-						
+					
 					<div class="field cs-button" style="height:34px;">
 						<button id="cs-button-submit" type="submit" value="Send" class="button">Send</button>
 					</div>
@@ -107,6 +104,16 @@
 						<p class="cs-element cs-text" id="cs-message">Please type in your message.</p>
 						<p class="cs-element cs-text" id="cs-error" style="color:red; line-height:1; margin-top:-3px;">Message failed.<br><span style="font-size:10px;">Please make sure JavaScript is enabled.</span></p>
 					</div>
+				</div>
+				
+				<div style="position:absolute; background:green; width:200px; height:100px; top:0px; left:0px;">
+				
+					<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+					
+					<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG"></div>
+					<!--<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>--><!--TEST-->
+
+	  
 				</div>
 
 			</form>

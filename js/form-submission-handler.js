@@ -50,6 +50,7 @@ function getFormData() {
   });
 
   // add form-specific values into the data
+  data.gRecaptchaResponse = document.getElementById("g-recaptcha-response").value;
   data.formDataNameOrder = JSON.stringify(fields);
   data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
   data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
