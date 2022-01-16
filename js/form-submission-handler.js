@@ -50,7 +50,7 @@ function getFormData() {
   });
 
   // add form-specific values into the data
-  data.gRecaptchaResponse = document.getElementById("g-recaptcha-response").value;
+  data.gresp = document.getElementById("g-recaptcha-response").value;
   data.formDataNameOrder = JSON.stringify(fields);
   data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
   data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
@@ -133,5 +133,6 @@ function loaded() {
   // bind to the submit event of our form
   var form = document.getElementById("gform");
   form.addEventListener("submit", handleFormSubmit, false);
+  document.getElementById("cs-button-submit").disabled = true;
 };
 document.addEventListener("DOMContentLoaded", loaded, false);
