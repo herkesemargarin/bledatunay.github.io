@@ -90,14 +90,17 @@
 						<input type="email" name="email" value="" size="40" id="email" aria-required="true" aria-invalid="false" placeholder="Your email"/>
 					</div>
 						
-					<div class="field" style="width:100%; height:133px; min-width:210px;">
+					<div class="field" style="width:100%; height:134px; min-width:210px;">
 						<textarea name="message" style="resize:none; width:97%; min-width:210px; height:120px; line-height:25px;" cols="40" rows="10" id="message" aria-required="true" placeholder="Your message - Please fill all the areas and provide a valid email address so that I can get back to you." aria-invalid="false"></textarea>
 					</div>
 					
-					<div style="float:left; transform:scale(0.74); transform-origin:0 0; width:100%; height:auto; padding-right:100px; margin-bottom:-14px;">
-						<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-						<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG" data-callback="callback" data-expired-callback="expired_callback"></div>
-						<!--<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>--><!--TEST-->
+					<div style="float:left; transform:scale(0.74); transform-origin:0 0; width:100%; height:auto; padding-right:100px; margin-bottom:-12px;">
+						<div style="position:relative; width:302px; height:76px;">
+							<div style="position:absolute; left:0; right:0; top:0; bottom:0; margin:5px 60px 5px 5px; z-index:-1;"><p style="padding-left:0px;">Refresh the page if you can't see Google reCAPTCHA.</p></div>
+							<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+							<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG" data-callback="callback" data-expired-callback="expired_callback"></div>
+							<!--<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>--><!--TEST-->
+						</div>
 					</div>
 					
 					<div class="field cs-button" style="height:34px;">
