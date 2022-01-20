@@ -37,8 +37,6 @@
 	<script src="js/input.fields.js" type="text/javascript"></script>
 	<script src="js/responsive-nav.js" type="text/javascript"></script>
 	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/scrollup.js" type="text/javascript"></script>
-	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 		
 </head>
 
@@ -104,7 +102,6 @@
 					<div style="float:left; transform:scale(0.74); transform-origin:0 0; width:100%; height:auto; padding-right:100px; margin-bottom:-12px;">
 						<div style="position:relative; width:302px; height:76px;">
 							<div style="position:absolute; left:0; right:0; top:0; bottom:0; margin:5px 60px 5px 5px; z-index:-1;"><p style="padding-left:0px;">Refresh the page if you can't see Google reCAPTCHA.</p></div>
-							<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 							<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG" data-callback="callback" data-expired-callback="expired_callback"></div>
 							<!--<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>--><!--TEST-->
 						</div>
@@ -113,9 +110,6 @@
 					<div class="field cs-button" style="height:34px;">
 						<button id="cs-button-submit" type="submit" value="Send" class="button">Send</button>
 					</div>
-
-					<script type="text/javascript">function callback(){document.getElementById("cs-button-submit").disabled = false;}</script>
-					<script type="text/javascript">function expired_callback(){document.getElementById("cs-button-submit").disabled = true;}</script>
 
 					<div class="field cs-feedback">
 						<img class="cs-element" id="cs-load" src="images/icons/form-loader.gif"></img>
@@ -2684,6 +2678,13 @@
 			<li><a class="toTop" href="#" onClick="return false"><img src="images/icons/bg-up.png"></a></li>
 		</ul>
 	</div>
+	
+	<!-- JavaScript -->
+	<script src="js/scrollup.js" type="text/javascript"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+	<script type="text/javascript">function callback(){document.getElementById("cs-button-submit").disabled = false;}</script>
+	<script type="text/javascript">function expired_callback(){document.getElementById("cs-button-submit").disabled = true;}</script>
 	
 	<!-- Analytics -->
 
