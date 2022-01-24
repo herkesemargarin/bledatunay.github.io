@@ -6,11 +6,28 @@
 ;
 (function ($) {
 
+  /*$(document).ready(function(){
+  $('.slides li').each(function(i,el){el.id = i+1;});});*/
+
   var focused = true;
 
   //FlexSlider: Object Instance
   $.flexslider = function(el, options) {
     var slider = $(el);
+	
+	//start each slider from the first slide
+	/*jQuery('.projects').click(function() {
+		slider.pause();
+		setTimeout(
+		  function() 
+		  {
+			var animationSpeed = slider.vars.animationSpeed; 	//save animation speed to reset later
+			slider.vars.animationSpeed = 0;
+			slider.flexAnimate(0); 					//position index for desired slide goes here
+			slider.vars.animationSpeed = animationSpeed;
+			slider.play();
+		  }, 400)
+	});	*/
 
     // making variables public
 
@@ -1160,8 +1177,8 @@
     smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
     startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
     slideshow: false,                //Boolean: Animate slider automatically
-    slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-    animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
+    slideshowSpeed: 3500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+    animationSpeed: 800,            //Integer: Set the speed of animations, in milliseconds
     initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
     randomize: false,               //Boolean: Randomize slide order
     fadeFirstSlide: true,           //Boolean: Fade in the first slide when animation type is "fade"
@@ -1209,7 +1226,7 @@
 
     // Callback API
     start: function(){},           //Callback: function(slider) - Fires when the slider loads the first slide
-    before: function(slider){},           //Callback: function(slider) - Fires asynchronously with each slider animation	
+    before: function(){},           //Callback: function(slider) - Fires asynchronously with each slider animation	
     after: function(){},            //Callback: function(slider) - Fires after each slider animation completes
     end: function(){},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
     added: function(){},            //{NEW} Callback: function(slider) - Fires after a slide is added
