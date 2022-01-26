@@ -24,6 +24,14 @@
         slider.started = slider.playing = true;
 	});
 
+    jQuery('.blog').click(function() {
+        clearInterval(slider.animatedSlides);
+        slider.animatedSlides = null;
+        slider.playing = false;
+        slider.animatedSlides = slider.animatedSlides || setInterval(slider.animateSlides, slider.vars.slideshowSpeed);
+        slider.started = slider.playing = true;
+	});
+
     // making variables public
 
     //if rtl value was not passed and html is in rtl..enable it by default.
