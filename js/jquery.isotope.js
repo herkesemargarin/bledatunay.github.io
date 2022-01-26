@@ -537,11 +537,11 @@
         this.styleQueue.push({ $el: $atomsToHide, style: this.options.hiddenStyle });
         var timeout = setTimeout(
 		  function() 
-		  {
-             if ( $atomsToHide.hasClass( hiddenClass ) ){
-             $atomsToHide.addClass( noneClass );
-             }
-		  }, 500)
+		  {   
+              if ( $atomsToHide.hasClass( hiddenClass ) && !$atomsToShow.hasClass( hiddenClass ) ){
+                $atomsToHide.addClass( noneClass );
+              }
+		  }, 400)
       }
 
       this.styleQueue.push({ $el: $atomsToShow, style: this.options.visibleStyle });
