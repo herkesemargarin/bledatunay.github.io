@@ -16,18 +16,13 @@
     var slider = $(el);
 	
 	//start each slider from the first slide
-	/*jQuery('.projects').click(function() {
-		slider.pause();
-		setTimeout(
-		  function() 
-		  {
-			var animationSpeed = slider.vars.animationSpeed; 	//save animation speed to reset later
-			slider.vars.animationSpeed = 0;
-			slider.flexAnimate(0); 					//position index for desired slide goes here
-			slider.vars.animationSpeed = animationSpeed;
-			slider.play();
-		  }, 400)
-	});	*/
+	jQuery('.projects').click(function() {
+        clearInterval(slider.animatedSlides);
+        slider.animatedSlides = null;
+        slider.playing = false;
+        slider.animatedSlides = slider.animatedSlides || setInterval(slider.animateSlides, slider.vars.slideshowSpeed);
+        slider.started = slider.playing = true;
+	});
 
     // making variables public
 
@@ -1176,8 +1171,8 @@
     animationLoop: true,            //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
     smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
     startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
-    slideshow: false,                //Boolean: Animate slider automatically
-    slideshowSpeed: 3500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+    slideshow: true,                //Boolean: Animate slider automatically
+    slideshowSpeed: 4000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
     animationSpeed: 800,            //Integer: Set the speed of animations, in milliseconds
     initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
     randomize: false,               //Boolean: Randomize slide order
