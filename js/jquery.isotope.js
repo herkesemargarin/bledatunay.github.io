@@ -541,7 +541,7 @@
               if ( $atomsToHide.hasClass( hiddenClass ) && !$atomsToShow.hasClass( hiddenClass ) ){
                 $atomsToHide.addClass( noneClass );
               }
-		  }, 400)
+		  }, 600)
       }
 
       this.styleQueue.push({ $el: $atomsToShow, style: this.options.visibleStyle });
