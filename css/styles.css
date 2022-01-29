@@ -304,5 +304,5 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .cs-text {padding:7px 0 0 5px;}
 #cs-load {height:40px; width:40px; margin-top:-3px;}
 
-.slide-land li img {width:620px; height:349px;}
-.slide-port li img {width:620px; height:551px;}
+.slide-land li img {height:349px;}
+.slide-port li img {height:551px;}
