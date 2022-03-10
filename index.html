@@ -20,9 +20,9 @@
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" />
 		
-	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&display=swap" rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400italic&display=swap" rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic&display=swap" rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 		
@@ -99,7 +99,6 @@
 							<div style="position:absolute; left:0; right:0; top:0; bottom:0; margin:5px 60px 5px 5px; z-index:-1;"><p style="padding-left:0px;">Refresh the page if you can't see Google reCAPTCHA.</p></div>
 							<script defer src="https://www.google.com/recaptcha/api.js"></script>
 							<div class="g-recaptcha" data-sitekey="6LcRgKYaAAAAABVtPDOyE1NQx7g41YADwBVkanYG" data-callback="callback" data-expired-callback="expired_callback"></div>
-							<!--<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>--><!--TEST-->
 						</div>
 					</div>
 					
@@ -863,7 +862,7 @@
 			<!-- Home 2x1 -->
 			<a href="#filter=.about" class="toTopF"><div class="element clearfix col2-3 home">
 				<div class="col1-3 connect">
-					<div class="images"><img src="images/mypictures/portrait_narrow.jpg" alt="" /></div>
+					<div class="images"><img style="width:320px; height:400px;" src="images/mypictures/portrait_narrow.jpg" alt="" /></div>
 				</div>
 				<div class="col1-3 col-text">
 					<h2>Hello, I'm Bleda.</h2>
@@ -930,7 +929,7 @@
 			<!-- Projects -->
 			<div class="element clearfix col2-3 home">
 				<div class="col1-3 connect">
-					<a href="#filter=.projects" class="toTopF"><div class="images"><img src="images/games/games_collage.jpg" alt="" /></div></a>
+					<a href="#filter=.projects" class="toTopF"><div class="images"><img style="width:320px; height:400px;" src="images/games/games_collage.jpg" alt="" /></div></a>
 				</div>
 				<div class="col1-3 col-text">
 					<a href="#filter=.projects" class="toTopF"><h2>Projects</h2>
@@ -2593,7 +2592,7 @@
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-B1R7BPGFGW"></script>
-		<script>
+		<script defer>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
