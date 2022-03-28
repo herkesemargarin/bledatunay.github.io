@@ -307,17 +307,17 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 
 /* =Slides Images
 --------------------------------------------------------------------------------------------------------*/
-.slides_landscape img {width:620px; height:349px;}
+/*.slides_landscape img {width:620px; height:349px;}
 .slides_portrait img {width:620px; height:551px;}
 
 @media only screen and (max-width: 767px) {
 	.slides_landscape img {width:300px; height:170px;}
 	.slides_portrait img {width:300px; height:266px;}
-}
+}*/
 
 /* =Design Process Images
 --------------------------------------------------------------------------------------------------------*/
-.dp {overflow:auto; width:620px;}
+/*.dp {overflow:auto; width:620px;}
 .dp img {width:540px; float:left; padding:5px 40px 5px 40px;}
 .dp p {float:left; padding-top:15px;}
 
@@ -329,4 +329,4 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 	.dp img {width:220px; height:auto;}
 	
 	.dp_pb {height:1250px;}
-}
+}*/
