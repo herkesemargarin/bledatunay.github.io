@@ -58,7 +58,7 @@ h4.about_par_text {padding:3px 40px 0px 40px;  font-size:16px;}
 .about_exp_info {font-weight:normal; float:left; width:100%;}
 .about_exp_info p {padding:0px 40px 15px 40px; font-size:14px;}
 
-.about_logo {height:130px; width:300px; float: left; padding-bottom:5px;}
+.about_logo {height:130px; width:300px; float: left; padding-bottom:6px;}
 .about_logo img {width:160px; margin: 14px 0px 4px 32px;}
 
 /* End Experience
@@ -169,7 +169,7 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
 ul.list { position:relative; font-style:italic; padding:14px 40px 0 40px; }
-ul.falist { position:relative; font-style:italic; padding:12px 40px 0 26px; line-height:125%;}
+ul.falist { position:relative; font-style:italic; padding:12px 40px 0 26px; line-height:125%; margin-left:30px;}
 ul.list li { line-height:1.5; width:auto; padding-left:20px; background:url(../images/icons/bg-bullet.png) no-repeat 5px 8px; background-size:6px 6px; }
 ul.check li { background:url(../images/icons/bg-check.png) no-repeat 1px 13px; background-size:13px 11px; }
 /* =End Lists
