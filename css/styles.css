@@ -19,7 +19,7 @@
 /* =Custom
 --------------------------------------------------------------------------------------------------------*/
 
-.projectoverview_property { text-transform: uppercase; font-weight:bold; color: #6990c0; font-size: 11px; font-style: normal; font-family:'Roboto', sans-serif; }
+.projectoverview_property { text-transform: uppercase; font-weight:bold; color: #27558f; font-size: 11px; font-style: normal; font-family:'Roboto', sans-serif; }
 .projectoverview_value { font-weight:bold; }
 td.noborder { border-style: hidden; }
 hr {background-color: #000; border: none; color: #2b2b2b; height: 1px; margin-top:20px; margin-left:40px; margin-right:40px;}
@@ -35,7 +35,7 @@ hr {background-color: #000; border: none; color: #2b2b2b; height: 1px; margin-to
 .about_container {height:130px; width:300px; float:left; padding-right:100px;}
 .about_edu_logo {height:100px; width:100px; padding:20px 0 0 40px; float: left; text-align:right}
 .about_edu_logo img {width:100px;}
-.about_edu_date {color: #4970a0; font-size: 12px; font-weight:bold; margin-top: 6px;}
+.about_edu_date {color: #27558f; font-size: 12px; font-weight:bold; margin-top: 6px;}
 .about_edu_courses {float:left; width:280px; height:380px; }
 h4.about_edu_study {padding:3px 40px 0px 40px;  font-size:16px; margin-top:0px;}
 h5.about_edu_school {padding:3px 40px 0px 40px; font-weight:normal; margin-top:6px; line-height:19px;}
@@ -216,7 +216,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 #options ul { margin: 0; list-style: none; display:inline-block; padding-top:38px; float:right; }
 #options li { float: left;  }
 #options li a { color:#777; font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; font-size:20px; font-weight:normal; text-decoration:none; text-transform:uppercase; letter-spacing: 1px; display:inline-block; padding:5px 16px;  margin:0px;}
-#options li a:hover { color:#ccc;}
+#options li a:hover { color:#bbb;}
 #options li a.selected { color:#fff;}
 /* End Isotope
 --------------------------------------------------------------------------------------------------------*/
