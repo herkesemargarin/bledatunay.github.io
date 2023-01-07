@@ -238,7 +238,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .skills_container {position: absolute; left: 0; right: 0; margin: auto; margin-top:8px; width:216px; height:144px; padding:0;}
 .skills_list {margin-top:158px;}
 .skills_list_sum {padding:0 30px 10px 0; font-weight:bold;}
-.skills_container img {float:left; width: 62px; height:62px; margin:5px;}
+.skills_container img {float:left; width: 54px; height:54px; margin:8px;}
 
 .skills_container_iconsonly {width:86%; overflow:auto; left: 0; right: 0; margin: auto;}
 .skills_container_iconsonly img {width:56px; height:56px; float:left; padding:0 4px 0 4px; margin-bottom:8px;}
