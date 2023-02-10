@@ -22,7 +22,7 @@
 .projectoverview_property { text-transform: uppercase; font-weight:bold; color: #27558f; font-size: 11px; font-style: normal; font-family:'Roboto', sans-serif; }
 .projectoverview_value { font-weight:bold; }
 td.noborder { border-style: hidden; }
-hr {background-color: #000; border: none; color: #2b2b2b; height: 1px; margin-top:20px; margin-left:40px; margin-right:40px;}
+hr {background-color: #000; border: none; color: #2b2b2b; height: 1px; margin-top:20px; margin-left:30px; margin-right:30px;}
 
 .subcontainer {overflow-y:auto; overflow-x:hidden;}
 
@@ -33,17 +33,17 @@ hr {background-color: #000; border: none; color: #2b2b2b; height: 1px; margin-to
 --------------------------------------------------------------------------------------------------------*/
 
 .about_container {height:130px; width:300px; float:left; padding-right:100px;}
-.about_edu_logo {height:100px; width:100px; padding:20px 0 0 40px; float: left; text-align:right}
+.about_edu_logo {height:100px; width:100px; padding:20px 0 0 30px; float: left; text-align:right}
 .about_edu_logo img {width:100px;}
 .about_edu_date {color: #27558f; font-size: 12px; font-weight:bold; margin-top: 6px;}
 .about_edu_courses {float:left; width:280px; height:380px; }
-h4.about_edu_study {padding:3px 40px 0px 40px;  font-size:16px; margin-top:0px;}
-h5.about_edu_school {padding:3px 40px 0px 40px; font-weight:normal; margin-top:6px; line-height:19px;}
-h5.about_edu_cgpa {padding:3px 40px 0px 40px; font-weight:bold; font-size: 13px; margin-top:1px;}
+h4.about_edu_study {padding:3px 30px 0px 30px;  font-size:16px; margin-top:0px;}
+h5.about_edu_school {padding:3px 30px 0px 30px; font-weight:normal; margin-top:6px; line-height:19px;}
+h5.about_edu_cgpa {padding:3px 30px 0px 30px; font-weight:bold; font-size: 13px; margin-top:1px;}
 
 .about_par_container {width:450px; vertical-align:middle; float:left; padding-bottom:20px; padding-top:20px;}
-h4.about_par_title {padding:6px 40px 0px 40px;  font-size:16px;}
-h4.about_par_text {padding:3px 40px 0px 40px;  font-size:16px;}
+h4.about_par_title {padding:6px 30px 0px 30px;  font-size:16px;}
+h4.about_par_text {padding:3px 30px 0px 30px;  font-size:16px;}
 
 
 /* End Education
@@ -52,14 +52,14 @@ h4.about_par_text {padding:3px 40px 0px 40px;  font-size:16px;}
 /* =Experience
 --------------------------------------------------------------------------------------------------------*/
 
-.about_exp_logo {height:130px; width:180px; float: left; text-align:right}
+.about_exp_logo {height:130px; width:170px; float: left; text-align:right}
 .about_exp_logo img {width:138px; margin-top:25px;}
 .about_exp_date {color: #4970a0; font-size: 12px; font-weight:bold; margin-top: 5px;}
 .about_exp_info {font-weight:normal; float:left; width:100%;}
 .about_exp_info p {padding:0px 40px 15px 40px; font-size:14px;}
 
 .about_logo {height:130px; width:300px; float: left; padding-bottom:6px;}
-.about_logo img {width:160px; margin: 14px 0px 4px 32px;}
+.about_logo img {width:160px; margin: 14px 0px 4px 25px;}
 
 /* End Experience
 --------------------------------------------------------------------------------------------------------*/
@@ -79,9 +79,9 @@ html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
 body { font: 14px 'Roboto', sans-serif; color:#444; background:#0c141a; }
 strong { font-weight:bold; }
 a, a > * {-webkit-transition: color 0.2s; -moz-transition: color 0.2s; -o-transition: color 0.2s; transition: color 0.2s;}
-p { line-height:1.4; font-style:normal; padding:14px 40px 0 40px; }
+p { line-height:1.4; font-style:normal; padding:14px 30px 0 30px; }
 p.small {font-size:12px;}
-p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight:bold; padding:14px 40px 6px 40px; clear:both }
+p.blockquote { font-family: 'Roboto', sans-serif; font-style:italic; font-weight:bold; padding:14px 30px 6px 30px; clear:both }
 .blockquote span {font: 11px Lato, 'Roboto', sans-serif; color:#8d8d8d; padding-top:5px; text-transform:uppercase; display:block; letter-spacing:1px; }
 a {text-decoration:none; color:#333;}
 a:hover { text-decoration:none; color:#333; }
@@ -96,8 +96,8 @@ input, textarea, select { padding:6px 4px 4px 6px; width:210px; height:18px; fon
 h1#logo { position:relative; float:left; margin-top:30px; margin-left:10px; margin-bottom:30px; width:180px; height:45px; z-index:1 }
 h1#logo a { display:block; background:url(../images/icons/bg-logo.png) no-repeat; background-size:180px 45px; width:180px; height:45px; text-indent:-9999px; }
 h2, h3, h4 { line-height:1.3; font-family:'Roboto', sans-serif; }
-h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 40px 5px 40px; padding-bottom:18px; padding-top:28px; text-transform:uppercase; border-bottom:1px solid #2b2b2b; display:block; text-decoration:none;}
-h3, h4 {font-size:19px; font-weight:700; padding:14px 40px 0 40px; margin-bottom:-6px; }
+h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 30px 5px 30px; padding-bottom:18px; padding-top:28px; text-transform:uppercase; border-bottom:1px solid #2b2b2b; display:block; text-decoration:none;}
+h3, h4 {font-size:19px; font-weight:700; padding:14px 30px 0 30px; margin-bottom:-6px; }
 h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 /* End Headings
 --------------------------------------------------------------------------------------------------------*/
@@ -168,8 +168,8 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
-ul.list { position:relative; font-style:italic; padding:14px 40px 0 40px; }
-ul.falist { position:relative; font-style:italic; padding:12px 40px 0 26px; line-height:125%; margin-left:30px;}
+ul.list { position:relative; font-style:italic; padding:14px 30px 0 30px; }
+ul.falist { position:relative; font-style:italic; padding:12px 30px 0 18px; line-height:125%; margin-left:30px;}
 ul.list li { line-height:1.5; width:auto; padding-left:20px; background:url(../images/icons/bg-bullet.png) no-repeat 5px 8px; background-size:6px 6px; }
 ul.check li { background:url(../images/icons/bg-check.png) no-repeat 1px 13px; background-size:13px 11px; }
 /* =End Lists
@@ -238,12 +238,12 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .skills_container {position: absolute; left: 0; right: 0; margin: auto; margin-top:8px; width:216px; height:144px; padding:0;}
 .skills_list {margin-top:158px;}
 .skills_list_sum {padding:0 30px 10px 0; font-weight:bold;}
-.skills_container img {float:left; width: 54px; height:54px; margin:8px;}
+.skills_container img {float:left; width: 60px; height:60px; margin:6px;}
 
 .skills_container_iconsonly {width:86%; overflow:auto; left: 0; right: 0; margin: auto;}
-.skills_container_iconsonly img {width:56px; height:56px; float:left; padding:0 4px 0 4px; margin-bottom:8px;}
+.skills_container_iconsonly img {width:56px; height:56px; float:left; padding:0 5px 0 5px; margin-bottom:8px;}
 
-.skill_container {width:86%; height:44px; margin-left:auto; margin-right:auto;}
+.skill_container {width:90%; height:44px; margin-left:auto; margin-right:auto;}
 .skill_title {font-size:15px; font-weight:bold; margin-bottom:10px;}
 
 .design_info {font-weight:normal;}
@@ -287,8 +287,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .progress {height:20px; margin-bottom:0px; overflow:hidden; background-color:#f5f5f5; border-radius:4px; -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1); box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}
 .progress p {padding-top:9px; font-size:15px; font-style:normal; text-align:center; color:#fff;}
 
-.soco {position: absolute; left: 0; right: 0; margin: auto; bottom:25px; width:228px; height:34px;}
-.sobu {float:left; width:34px; height:34px;	margin:0px 2px 0px 2px;}
+.soco {position: absolute; left: 0; right: 0; margin: auto; bottom:25px; width:240px; height:34px;}
+.sobu {float:left; width:34px; height:34px;	margin:0px 3px 0px 3px;}
 .soim {position:absolute; -webkit-transition: opacity .4s ease-out; -moz-transition: opacity .4s ease-out; -o-transition: opacity .4s ease-out; -ms-transition: opacity .4s ease-out; transition: opacity .4s ease-out; width:34px; height:34px;}
 .top:hover{opacity: 0;}
 
@@ -301,9 +301,9 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 
 .more {position:absolute; bottom:25px; width:300px;}
 .resume {position:absolute; bottom:66px; width:300px;}
-.more button {margin-left:40px; width:150px; height:34px; font-size:15px;}
+.more button {margin-left:30px; width:150px; height:34px; font-size:15px;}
 
-.title_button {position:absolute; top:26px; right:40px;}
+.title_button {position:absolute; top:26px; right:30px;}
 .title_button button {width: 34px; height:34px;}
 .title_button i {margin-top:2px; padding-left:0px;}
 
@@ -325,7 +325,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 /* =Design Process Images
 --------------------------------------------------------------------------------------------------------*/
 /*.dp {overflow:auto; width:620px;}
-.dp img {width:540px; float:left; padding:5px 40px 5px 40px;}
+.dp img {width:540px; float:left; padding:5px 30px 5px 30px;}
 .dp p {float:left; padding-top:15px;}
 
 .dp_pb {height:2650px;}
