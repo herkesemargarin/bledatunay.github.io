@@ -240,7 +240,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .skills_list_sum {padding:0 30px 10px 0; font-weight:bold;}
 .skills_container img {float:left; width: 60px; height:60px; margin:6px;}
 
-.skills_container_iconsonly {width:86%; overflow:auto; left: 0; right: 0; margin: auto;}
+.skills_container_iconsonly {width:90%; overflow:auto; left: 0; right: 0; margin: auto;}
 .skills_container_iconsonly img {width:56px; height:56px; float:left; padding:0 5px 0 5px; margin-bottom:8px;}
 
 .skill_container {width:90%; height:44px; margin-left:auto; margin-right:auto;}
