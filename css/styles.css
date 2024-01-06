@@ -105,7 +105,7 @@ input, textarea, select { padding:6px 4px 4px 6px; width:210px; height:18px; fon
 h1#logo { position:relative; float:left; margin-top:30px; margin-left:10px; margin-bottom:30px; width:180px; height:45px; z-index:1 }
 h1#logo a { display:block; background:url(../images/icons/bg-logo.png) no-repeat; background-size:180px 45px; width:180px; height:45px; text-indent:-9999px; }
 h2, h3, h4 { line-height:1.3; font-family:'Roboto', sans-serif; }
-h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 30px 5px 30px; padding-bottom:18px; padding-top:26px; text-transform:uppercase; border-bottom:1px solid #2b2b2b; display:block; text-decoration:none;}
+h2 { font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; letter-spacing:1px; font-size:28px; font-weight:700; color:#2b2b2b; margin:0px 30px 5px 30px; padding-bottom:16px; padding-top:26px; text-transform:uppercase; border-bottom:1px solid #2b2b2b; display:block; text-decoration:none;}
 h3, h4 {font-size:19px; font-weight:700; padding:14px 30px 0 30px; margin-bottom:-6px; }
 h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 /* End Headings
@@ -178,7 +178,7 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
 ul.list { position:relative; font-style:italic; padding:14px 30px 0 30px; }
-ul.falist { position:relative; font-style:italic; padding:12px 30px 0 18px; line-height:125%; margin-left:30px;}
+ul.falist { position:relative; font-style:italic; padding:16px 30px 0 18px; line-height:125%; margin-left:30px;}
 ul.list li { line-height:1.5; width:auto; padding-left:20px; background:url(../images/icons/bg-bullet.png) no-repeat 5px 8px; background-size:6px 6px; }
 ul.check li { background:url(../images/icons/bg-check.png) no-repeat 1px 13px; background-size:13px 11px; }
 /* =End Lists
