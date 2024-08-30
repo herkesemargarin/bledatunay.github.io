@@ -117,7 +117,7 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 #wrapper { margin-top:0px; width:100%; background:#11191f; position:relative; z-index:29; margin:0 auto; margin-bottom:20px; }
 .container { padding:0px; width:960px; position:relative; margin:0 auto;}
 
-.col1-1 { width:940px; margin:10px; height:400px; float:left; background:white; }
+.col1-1 { width:940px; margin:10px; float:left; background:white; }
 .col1-3 { width:300px; height:400px; margin:10px; float:left; background:white;}
 .element .col1-3 {width:300px; height:400px; margin:0; float:left; }
 .element .col1-3.connect {width:320px; height:400px; margin:0; float:left; }
@@ -283,7 +283,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .blog_gra_images {padding:0 40px 20px 40px;}
 
 .game_table {width:100%;}
-.game_table td {width:50%;}
+.game_table td {width:33%;}
 .game_table p {padding:14px 20px 0 30px;}
 
 #page-container {position: relative; min-height: 100vh;}
@@ -320,6 +320,10 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .cs-button {padding-bottom:20px; height:34px; width:160px;}
 .cs-text {padding:7px 0 0 5px;}
 #cs-load {height:40px; width:40px; margin-top:-3px;}
+
+.gamedetails {margin: 25px; float:left; width:100%; height:auto; justify-content:center;}
+.gamedetails img {width:22.4%; height:456px; margin:5px;}
+.gamedetails_singleimage {width:100%; height:500px;}
 
 /* =Slides Images
 --------------------------------------------------------------------------------------------------------*/
