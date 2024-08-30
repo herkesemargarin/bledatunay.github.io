@@ -9,14 +9,14 @@
 #options li a {font-size:18px; padding:8px 10px; }
 
 .gamedetails img {width:44%; height:591px;}
-.gamedetails_singleimage {width:100%; height:318px;}
+.gamedetailsimage {width:100%; height:318px;}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 767px) {
 	
 .gamedetails img {width:80%; height:520px;}
-.gamedetails_singleimage {width:100%; height:136px;}
+.gamedetailsimage {width:100%; height:136px;}
 
 .container { padding:0px; width:320px; position:relative; }
 .col2-3 { width:300px; height:auto; margin:10px; float:left;}
