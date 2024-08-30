@@ -322,7 +322,11 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 #cs-load {height:40px; width:40px; margin-top:-3px;}
 
 .gamedetails {margin: 25px; float:left; width:100%; height:auto; justify-content:center;}
-.gamedetails img {width:22.4%; height:456px; margin:5px;}
+.gamedetails img {width:22.4%; margin:5px;}
+
+.gdixcom img {height:456px;}
+.gdisab img {height:374px;}
+
 .gamedetailsimage {width:100%; height:500px;}
 
 /* =Slides Images
