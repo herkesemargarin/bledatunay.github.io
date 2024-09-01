@@ -282,9 +282,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .blog_info p {float:left; width:120px; padding-right:20px;}
 .blog_gra_images {padding:0 40px 20px 40px;}
 
-.game_table {width:100%;}
-.game_table td {width:33%;}
-.game_table p {padding:14px 20px 0 30px;}
+.game_table {overflow:hidden; padding-left:30px; padding-right:30px;}
+.game_table_content {width:280px; float:left; margin-top:15px; margin-bottom:5px;}
 
 #page-container {position: relative; min-height: 100vh;}
 #content-wrap {padding-bottom: 150px;}
