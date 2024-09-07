@@ -118,6 +118,9 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 .container { padding:0px; width:960px; position:relative; margin:0 auto;}
 
 .col1-1 { width:940px; margin:10px; float:left; background:white; }
+.col1-2 { width:940px; height:300px; margin:10px; float:left; background:white;}
+.element .col1-2 {width:410px; height:300px; margin:0; float:left; }
+.element .col1-2.connect {width:530px; height:300px; margin:0; float:left; }
 .col1-3 { width:300px; height:400px; margin:10px; float:left; background:white;}
 .element .col1-3 {width:300px; height:400px; margin:0; float:left; }
 .element .col1-3.connect {width:320px; height:400px; margin:0; float:left; }
@@ -131,7 +134,7 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 .det .col-text {height:auto; padding-bottom:40px; }
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
 .break { height:20px; position:relative; }
-.images { display:block; position:relative; width:auto;}
+.images { display:block; position:relative; width:auto; overflow:hidden;}
 .overflow {overflow:hidden; }
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
