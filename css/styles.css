@@ -131,6 +131,8 @@ h3 {padding-top:18px; padding-bottom:6px; color:#333;}
 
 .col-text {background:#fff; position:relative; }
 
+.highlightgame img {height:300px; width:530px;}
+
 .det .col-text {height:auto; padding-bottom:40px; }
 .bottom {position:absolute; bottom:0px; padding-bottom:36px; }
 .break { height:20px; position:relative; }
