@@ -325,6 +325,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .cs-text {padding:7px 0 0 5px;}
 #cs-load {height:40px; width:40px; margin-top:-3px;}
 
+.gamelinks {margin-top:15px; height:34px; width:280px;}
+
 .gamedetails {margin: 25px; float:left; width:100%; height:auto;}
 .gamedetails img {width:22.4%; margin:5px;}
 .gamedetailslandscape {margin: 25px; float:left; width:100%; height:auto;}
