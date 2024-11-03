@@ -272,8 +272,8 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .pbar-logo {width:40px; height:40px; float:left; padding-right:10px;}
 .pbar-logo img {height:40px;margin-top:0px; margin-left:auto; margin-right:auto;}
 
-.basic_info_title {font-size:14px; font-weight:normal; padding-top:8px;}
-.basic_info_text {font-size:15px; font-weight:bold; padding-top:4px;}
+.basic_info_title {font-size:14px; font-weight:normal; padding-top:18px;}
+.basic_info_text {font-size:15px; font-weight:bold; padding-top:6px;}
 
 .experience_info_title {font-size:14px; font-weight:normal;}
 .experience_info_text {font-size:22px; font-weight:bold; padding-top:4px;}
@@ -301,7 +301,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .progress p {padding-top:9px; font-size:15px; font-style:normal; text-align:center; color:#fff;}
 
 .soco {position: absolute; left: 0; right: 0; margin: auto; bottom:25px; width:240px; height:34px;}
-.sobu {float:left; width:34px; height:34px;	margin:0px 3px 0px 3px;}
+.sobu {float:left; width:34px; height:34px;}
 .soim {position:absolute; -webkit-transition: opacity .4s ease-out; -moz-transition: opacity .4s ease-out; -o-transition: opacity .4s ease-out; -ms-transition: opacity .4s ease-out; transition: opacity .4s ease-out; width:34px; height:34px;}
 .top:hover{opacity: 0;}
 
