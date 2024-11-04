@@ -301,7 +301,7 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:24px; width:24px;
 .progress p {padding-top:9px; font-size:15px; font-style:normal; text-align:center; color:#fff;}
 
 .soco {position: absolute; left: 0; right: 0; margin: auto; bottom:25px; width:240px; height:34px;}
-.sobu {float:left; width:34px; height:34px;}
+.sobu {float:left; width:34px; height:34px; margin-right:6px;}
 .soim {position:absolute; -webkit-transition: opacity .4s ease-out; -moz-transition: opacity .4s ease-out; -o-transition: opacity .4s ease-out; -ms-transition: opacity .4s ease-out; transition: opacity .4s ease-out; width:34px; height:34px;}
 .top:hover{opacity: 0;}
 
